@@ -1,9 +1,170 @@
 {
-    "posts": [
-      { "id": 1, "title": "json-server", "author": "typicode" }
+    "headerTag": [
+      { "name":"Briefs",
+        "href":"#"
+       },
+      { "name":"Videos",
+        "href":"#"
+       },
+      { "name":"City",
+        "href":"#"
+       },
+      { "name":"India",
+        "href":"#"
+       },
+      { "name":"World",
+        "href":"#"
+       },
+      { "name":"Business",
+        "href":"#"
+       },
+      { "name":"Tech",
+        "href":"#"
+       },
+      { "name":"Cricket",
+        "href":"#"
+       },
+      { "name":"Sports",
+        "href":"#"
+       },
+      { "name":"Entertainment",
+        "href":"#"
+       },
+      { "name":"Tv",
+        "href":"#"
+       },
+      { "name":"Web Series",
+        "href":"#"
+       },
+      { "name":"Life & Styles",
+        "href":"#"
+       },
+      { "name":"Education",
+        "href":"#"
+       },
+      { "name":"Photos",
+        "href":"#"
+       },
+      { "name":"Blogs",
+        "href":"#"
+       }
+
     ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 }
+    
+    "sectionOneHeadlineLeft":[
+      {
+        "title":"Live: Review of Covaxin shot under way, WHO says",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-23502,msid-87267511,width-150,resizemode-4/87267511.jpg"
+      },
+      {
+        "title":"When Gulzar met Satyajit Ray, Kishore, RD....",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-31572,msid-87253712,width-150,resizemode-4/87253712.jpg"
+      },
+      {
+        "title":"Drugs case: What Aryan Khan's lawyer said in court",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-40298,msid-87247422,width-600,resizemode-4/87247422.jpg"
+      },
+      {
+        "title":"T20 WC Live: Akeal Hosein ends Reeza Hendricks' stay",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-104496,msid-87273813,width-150,resizemode-4/87273813.jpg"
+      },
+      {
+        "title":"Dravid formally applies for head coach's post",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-48772,msid-87278997,width-150,resizemode-4/87278997.jpg"
+      },
+      {
+        "title":"Add rape sections in Bulandshahr case: DCW",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-25040,msid-87280613,width-150,resizemode-4/87280613.jpg"
+      },
+      {
+        "title":"Live: 5 dengue cases in Ggm; total 217",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-71472,msid-87268455,width-150,resizemode-4/87268455.jpg"
+      },
+      {
+        "title":"Metro stn linked with electric shuttle service",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-85956,msid-87276970,width-150,resizemode-4/87276970.jpg"
+      },
+      {
+        "title":"Samsung NEO QLED tvs are redefining sound",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-23424,msid-87204334,width-150,resizemode-4/87204334.jpg"
+      },
+      {
+        "title":"LAST FEW DAYS to get Never Before Discounts on Top Selling Gadgets.",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-303936,msid-82274978,width-150,resizemode-4/82274978.jpg"
+      },
+      {
+        "title":"Publicis Sapient fosters a culture of wellbeing",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-76166,msid-87258854,width-150,resizemode-4/87258854.jpg"
+      },
+      {
+        "title":"Discover curated gifting option - Tata CLiQ Luxury",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87161396,width-150,resizemode-4/87161396.jpg"
+      }
     ],
-    "profile": { "name": "typicode" }
+    
+    "sectionOneHeadlineMiddle":[
+      {
+        "title":"Court refuses to pass blanket order over Sameer Wankhede’s plea on witness affidavit",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87273858,width-600,resizemode-4/87273858.jpg"
+      },
+      {
+        "title":"Mumbai lawyer seeks FIR against SRK's manager Pooja, Sameer",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87278203,width-600,resizemode-4/87278203.jpg"
+      },
+      {
+        "title":"Aryan Khan and Ananya Panday discussed 'weed': Report",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87274473,width-600,resizemode-4/87274473.jpg"
+      },
+      {
+        "title":"Atul Khatri’s tips for managing glucose levels",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-61004,msid-87273865,width-200,resizemode-4/87273865.jpg"
+      },
+      {
+        "title":"Meet the next revolution in TV: Sony BRAVIA XR",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-53016,msid-87304604,width-200,resizemode-4/87304604.jpg"
+      }
+    ],
+    
+    "sectionOneHeadlineRight": [
+      { 
+        "title":"Gzb: Police want Goondas Act against Yati, cite FIRs"
+      },
+      { 
+        "title":"What it was like watching Ind-Pak match in Dubai"
+      },
+      { 
+        "title":"T20 WC: Why Indian fans will be hoping Pak beat NZ"
+      },
+      { 
+        "title":"macOS Monterey: 10 new features for Apple Mac users"
+      },
+      { 
+        "title":"T20 WC Live: Pakistan seek 'revenge' against New Zealan..."
+      },
+      { 
+        "title":"Dhanteras Store on Amazon: Smart TVs at 30% off"
+      },
+      { 
+        "title":"T20 WC Live Score: South Africa vs West Indies"
+      },
+      { 
+        "title":"How to create your ad with Shah Rukh Khan in it"
+      },
+      { 
+        "title":"NCP's Malik vs NCB's Wankhede: A 'personal' feud in Aryan "
+      },
+      { 
+        "title":"Bizarre remarks from Pakistanis after win against India"
+      },
+      { 
+        "title":"Ananya's connection to Aryan's drug case: All you need to... "
+      },
+      { 
+        "title":"Marriage is being used as tool for forced religious conversi..."
+      },
+      { 
+        "title":"Patakhe Nahi, Diye Jalao’ drive in Delhi from Oct 27"
+      }
+    ]
+    
 }

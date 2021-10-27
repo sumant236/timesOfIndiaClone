@@ -1,0 +1,236 @@
+// Header Section
+
+
+$fadeTextColor: #53524f;
+
+$textColor: #1A1A1A;
+
+$redColor: #E21B22;
+
+$whiteColor: #FFFFFF;
+
+*{
+    font-family: Montserrat;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+.headerTop{
+    margin-top: 10px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    // border: 1px solid blue;
+    border-bottom: 1px solid rgb(161, 159, 159);
+}
+.headerTopLeft{
+    display:flex;
+    width: 50%;
+    // border: 1px solid blue;
+    justify-content:space-around;
+}
+.headerTopLeftOne{
+    width:30%;
+    display:flex;
+    justify-content:space-around;
+}
+.headerTopLeftThree{
+    width:30%;
+    display:flex;
+    justify-content:space-around;
+}
+.headerTopRight{
+    width:50%;
+    display:flex;
+    justify-content:flex-end;
+
+
+    &>button{
+        width:142px;
+        height: 25px;
+        background-color:$redColor;
+        border-radius:5px;
+        border: none;
+        color: white;
+        font-weight: 500;
+    }
+    &>div{
+        border:1px solid $fadeTextColor;
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-radius: 50%;
+        color: $fadeTextColor;
+    }
+    &>div,p{
+        margin: 5px;
+
+    }
+}
+.headerLogo{
+    display:flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(161, 159, 159);
+    object-fit: contain;
+    & > img{
+        width:100%;
+        
+    }
+}
+.headerBottom{
+    
+}
+.headerBottomContainer{
+    display:flex;
+    justify-content:space-around;
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(73, 73, 73);
+    &>a{
+        color: $textColor;
+        font-weight: 500;
+        transition: .1s all ease-in-out;
+        &:hover{
+            color: $textColor;
+            font-weight:600;
+        }
+    }
+}
+
+.headerBottomSecond{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size:13px;
+    border-bottom: 1px solid rgb(161, 159, 159);
+    &>p:nth-child(1){
+        color: $redColor;
+        font-weight:600;
+    }
+    &>p{
+        margin-left: 15px;
+        font-weight:500;
+    }
+}
+
+// Section One
+.sectionOneContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:100%;
+}
+.sectionOneHeadlineLeft{
+    margin-top: 10px;
+    width:45%;
+    // border: 1px solid green;
+    border-right: 1px dotted $fadeTextColor;
+    padding:1%;
+    &>img{
+        width:93%;
+        margin-bottom: 15px;
+        border-radius: 10px;
+    }
+}
+.sectionOneHeadlineLeftContainer{
+    display: grid;
+    grid-gap: 1.5%;
+    grid-template-columns: repeat(2,46%);
+}
+.sectionOneHeadlineLeftCard{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding:1.5%;
+    &>img{
+        border-radius: 5px;
+        width:70px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    & > p{
+        cursor: pointer;
+        transition: .3s all ease-in-out;
+
+        &:hover{
+            font-weight:500;
+        }
+    }
+}
+.sectionOneHeadlineMiddle{
+    width:20%;
+    margin-top: 10px;
+    // border: 1px solid rgb(24, 108, 235);
+    border-right: 1px dotted gray;
+    
+}
+.sectionOneHeadlineMiddleCard{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    // margin-bottom: 15px;
+    padding:1%;
+    width:80%;
+    margin: 10px auto;
+    & > p{
+        cursor: pointer;
+        transition: .3s all ease-in-out;
+
+        &:hover{
+            font-weight:500;
+        }
+    }
+    & > img{
+        width:205px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+.sectionOneHeadlineRight{
+    width:35%;
+    margin-top: 10px;
+    
+    padding: 1%;
+}
+.sectionOneHeadlineRightContainer{
+    display: flex;
+    flex-direction: column;
+
+    & > p{
+        border-bottom: 1px dotted gray;
+        padding:10px 2px;
+    }
+}
+
+.sectionOneTrending{
+    display: flex;
+    padding: 6% 0;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px dotted gray;
+    
+    & > div{
+        color: $redColor;
+        font-weight:600;
+    }
+
+    &>p{
+        font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding:5px;
+        border-radius:5px;
+    }
+}

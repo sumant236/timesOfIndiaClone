@@ -1,0 +1,314 @@
+* {
+  font-family: Montserrat;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerTop {
+  margin-top: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #a19f9f;
+}
+
+.headerTopLeft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.headerTopLeftOne {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.headerTopLeftThree {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.headerTopRight {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.headerTopRight > button {
+  width: 142px;
+  height: 25px;
+  background-color: #E21B22;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.headerTopRight > div {
+  border: 1px solid #53524f;
+  height: 25px;
+  width: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  color: #53524f;
+}
+
+.headerTopRight > div, .headerTopRight p {
+  margin: 5px;
+}
+
+.headerLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid #a19f9f;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.headerLogo > img {
+  width: 100%;
+}
+
+.headerBottomContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px 0px;
+  border-bottom: 2px solid #494949;
+}
+
+.headerBottomContainer > a {
+  color: #1A1A1A;
+  font-weight: 500;
+  -webkit-transition: .1s all ease-in-out;
+  transition: .1s all ease-in-out;
+}
+
+.headerBottomContainer > a:hover {
+  color: #1A1A1A;
+  font-weight: 600;
+}
+
+.headerBottomSecond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #a19f9f;
+}
+
+.headerBottomSecond > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.headerBottomSecond > p {
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.sectionOneContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.sectionOneHeadlineLeft {
+  margin-top: 10px;
+  width: 45%;
+  border-right: 1px dotted #53524f;
+  padding: 1%;
+}
+
+.sectionOneHeadlineLeft > img {
+  width: 93%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.sectionOneHeadlineLeftContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.5%;
+  -ms-grid-columns: (46%)[2];
+      grid-template-columns: repeat(2, 46%);
+}
+
+.sectionOneHeadlineLeftCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  padding: 1.5%;
+}
+
+.sectionOneHeadlineLeftCard > img {
+  border-radius: 5px;
+  width: 70px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sectionOneHeadlineLeftCard > p {
+  cursor: pointer;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.sectionOneHeadlineLeftCard > p:hover {
+  font-weight: 500;
+}
+
+.sectionOneHeadlineMiddle {
+  width: 20%;
+  margin-top: 10px;
+  border-right: 1px dotted gray;
+}
+
+.sectionOneHeadlineMiddleCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1%;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.sectionOneHeadlineMiddleCard > p {
+  cursor: pointer;
+  -webkit-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+}
+
+.sectionOneHeadlineMiddleCard > p:hover {
+  font-weight: 500;
+}
+
+.sectionOneHeadlineMiddleCard > img {
+  width: 205px;
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.sectionOneHeadlineRight {
+  width: 35%;
+  margin-top: 10px;
+  padding: 1%;
+}
+
+.sectionOneHeadlineRightContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sectionOneHeadlineRightContainer > p {
+  border-bottom: 1px dotted gray;
+  padding: 10px 2px;
+}
+
+.sectionOneTrending {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 6% 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px dotted gray;
+}
+
+.sectionOneTrending > div {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.sectionOneTrending > p {
+  font-weight: 500;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=header.css.map */
