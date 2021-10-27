@@ -1,13 +1,18 @@
 body{
     background: #ECEFF1;
+    font-family: 'Roboto', sans-serif;;
 }
 nav{
+    max-width: 100%;
     background: #000;
     color: white;
 }
 form{
-    width: 80%;
+    max-width: 70%;
     margin: auto;
+}
+p{
+    margin: 0px;
 }
 #nav-1{
     background: #263238;
@@ -33,6 +38,12 @@ form{
     border: none;
     color: white;
 }
+#crown{
+    border: none; 
+    color: orange; 
+    background: transparent;
+    color: yellow;
+}
 .icon{
     border: none;
     width: 200px;
@@ -41,27 +52,55 @@ form{
     background: linear-gradient(to left, #F48FB1, #1A237E);
     height: 30px;
 }
-i, #signup{
-    color: white;
+i{
+    background: #fff;
+    border: 1px solid #676E7A;
+    color: #676E7A;
+}
+#signup{
+    background: transparent;
+    color: #fff;
     text-decoration: none;
     padding-top: 7px;
 }
-#nav-2 > img{
+#toi-img{
     display: block;
     margin: auto;
+    max-width: 100%;
     margin-top: 5px;
     padding-bottom: 40px;
 }
 #nav-3{
     background: #D50000;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: auto;
 }
 #nav-3 > div{
     display: flex;
     gap: 0.7rem;
 }
+.nav-icon{
+    background: #fff;
+    /* size: 5px; */
+    padding: 7px;
+    border-radius: 20px;
+}
+.nav3-icon{
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding-top: 5px;
+}
+/* #nav-3, #nav-4{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#nav-4{
+    margin-top: 25px;
+} */
 #brief{
     color: white;
     background: #666;
@@ -82,12 +121,75 @@ i, #signup{
 }
 #nav-4{
     display: flex;
+    gap: 0px;
     background: white;
+    font-size: 11px;
+    padding: 10px 0px;
 }
 #nav-4 > p:nth-child(1){
     color: #888;
-    padding-left: 15%;
+    padding: 0px 0px 0px 20%; 
 }
 #nav-4 > p:nth-child(2){
     color: #000;
+    padding: 0px;
+}
+form > h1{
+    font-size: 20px;
+    margin: 0px 0px 10px;
+}
+.card-img{
+    width: 320px;
+    height: 183px;
+    grid-area: img;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#container > div{
+    width: 320px;
+    background: #fff;
+    /* height: 500px; */
+    display: grid;
+    grid-template-areas: "img"
+                         "head"
+                         "desc"
+                         "refer";
+}
+#container > div > p{
+    font-size: 14px;
+    color: #676E7A;
+    font-weight: 400;
+    line-height: 1.64;
+    padding: 12px;
+}
+#container > div > h6{
+    font-size: 18px;
+    margin: 0px;
+    padding: 12px;
+}
+.card-icons{
+    size: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.reference{
+    grid-area: refer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 40px;
+    padding: 12px;
+}
+.title{
+    grid-area: head;
+}
+.description{
+    grid-area: desc;
+}
+.reference > p{
+    padding: 10px;
+    color: #D50000;
 }

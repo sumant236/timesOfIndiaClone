@@ -1,5 +1,292 @@
 {
-    "task":[
-        
+    "brief": [
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87316018.cms?width=320&height=183&quality=100",
+            "title": "Second dose of Covid vaccine overdue for around 11 crore people, shows Govt data",
+            "content": "Around 11 crore people who have taken the first shot of Covid-19 vaccine have not got themselves jabbed with the second dose even after the expiry of the prescribed interval between two doses, according to government data.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87316245.cms?width=320&height=183&quality=100",
+            "title": "Forex reserves surge by $58.38 billion in first half of FY22: RBI report",
+            "content": "The country's foreign exchange reserves surged by $58.38 billion in April-September 2021 to $635.36 billion, says an RBI report released on Wednesday.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87315509.cms?width=320&height=183&quality=100",
+            "title": "PM Modi will meet Pope Francis on October 30, says Church",
+            "content": "Prime Minister Narendra Modi will meet Pope Francis on October 30 during his European visit commencing later this week, a Catholic Bishops' body in Kerala said on Wednesday.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87313477.cms?width=320&height=183&quality=100",
+            "title": "CBI arrests 6 persons in connection with Rs 6,000 cr remittance scam in Bank of Baroda",
+            "content": "The Central Bureau of Investigation (CBI) on Wednesday arrested 6 persons in connection with the Rs 6,000-crore foreign exchange remittance scam in the Bank of Baroda, which was detected in 2015, officials said.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87311057.cms?width=320&height=183&quality=100",
+            "title": "Neeraj Chopra, Ravi Dahiya, among 11 recommended for Khel Ratna",
+            "content": "Javelin thrower Neeraj Chopra, who became only the second Indian to win an individual Olympic gold at the Tokyo Games, and silver medal-winning wrestler Ravi Dahiya were recommended for the Khel Ratna as an unprecedented 11 athletes were selected for the country's highest sporting honour.",
+            "contentFrom": "SPORTS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87306859.cms?width=320&height=183&quality=100",
+            "title": "NCB records Sameer Wankhede's statement: Key points",
+            "content": "The NCB's Deputy Director General (DDG)-northern region, Gyaneshwar Singh said they have started recording the statement of the agency's Mumbai zonal director Sameer Wankhede in connection with the departmental vigilance probe into allegations of extortion in the drugs-on-cruise case.",
+            "contentFrom": "ENTERTAINMENT"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87301925.cms?width=320&height=183&quality=100",
+            "title": "US eases travel hurdles for Covaxin trial participants",
+            "content": "At a time when the World Health Organisation (WHO) is dithering on granting Emergency Use Listing (EUL) to Bharat Biotech’s Covaxin, the United States Centres for Disease Control and Prevention (CDC) has given clearance to Covaxin vaccinated individuals to travel to the US, albeit with a rider.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87297327.cms?width=320&height=183&quality=100",
+            "title": "SC forms 3-member panel to probe Pegasus snooping case",
+            "content": "The Supreme Court of India on Wednesday appointed an expert committee to look into Pegasus snooping controversy. The scandal had allegedly compromised privacy of individuals and institutions.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87305529.cms?width=320&height=183&quality=100",
+            "title": "New TV series on Martin Luther King Jr's biography!",
+            "content": "Author Patrick Parr's biography on Martin Luther King Jr. titled 'The Seminarian' was released in 2018. And now, the biography is being adapted into a TV series.",
+            "contentFrom": "LIFESTYLE"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87299272.cms?width=320&height=183&quality=100",
+            "title": "Captain Amarinder: 'Yes, I am forming a party, can go for seat-sharing pact with BJP'",
+            "content": "Ahead of the state polls next year, former Punjab chief minister Amarinder Singh on Wednesday announced that he will form a new political party. \"Yes, I will be forming a new party. The name will be announced once the Election Commission clears it, along with the symbol. My lawyers are working on it,\" he said.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87291645.cms?width=320&height=183&quality=100",
+            "title": "No consumption, recovery, test or conscious possession: Aryan",
+            "content": "Arguing for actor Shah Rukh Khan’s son Aryan Khan’s bail plea in the drug seizure case, former attorney general Mukul Rohatgi told the Bombay high court on Tuesday that Aryan was not in “conscious possession” of the contraband allegedly seized from a friend’s shoe. Questioning the finding by the judge of a special court handling drug cases that Aryan was in “conscious possession” of contraband found with a friend, Rohatgi said the surmise was “tenuous and farfetched”...",
+            "contentFrom": "ENTERTAINMENT"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87298452.cms?width=320&height=183&quality=100",
+            "title": "India adds 13,451 new Covid-19 infections, active cases lowest in 242 days",
+            "content": "India on Wednesday reported 13,451 new coronavirus infections, taking the total tally of Covid-19 cases to 3,42,15,653. According to the Union health ministry data, the country also registered 585 fresh fatalities taking the death toll to 4,55,653. The active cases, meanwhile, declined to 1,62,661, the lowest in 242 days, according to the data updated at 8 am.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87303534.cms?width=320&height=183&quality=100",
+            "title": "Water tycoon is China's richest as wealth crackdown batters Jack Ma",
+            "content": "Bottled-water tycoon Zhong Shanshan has become China's wealthiest person, according to an annual ranking released Wednesday, as a government campaign to rein in the super-rich took a big bite out of the fortunes of perennial front-runners like Alibaba co-founder Jack Ma.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87303255.cms?width=320&height=183&quality=100",
+            "title": "Preparations ramped up in Kedarnath in view of PM's upcoming visit",
+            "content": "The Chardham Devasthanam Board stepped up its preparations on Wednesday in view of Prime Minister Narendra Modi's visit to Kedarnath on November 5. Roads and a helipad en route to the Himalayan shrine have already been cleared of snow while work on the beautification of the temple and other minor arrangements are underway, the Devasthanam board's media incharge Harish Gaud said.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87300925.cms?width=320&height=183&quality=100",
+            "title": "Oil will hit $90 by year end: Why crude prices will only rise further",
+            "content": "Goldman Sachs expects that oil demand will shortly reach pre-Covid levels of around 100 million barrels per day (bpd) as consumption will rebound soon.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87298081.cms?width=320&height=183&quality=100",
+            "title": "Jamaat-e-Islami terror funding case: NIA raids multiple locations in J&K",
+            "content": "In its ongoing investigation against the outlawed Jamaat-e-Islami (JeI) group in a terror funding case, the National Investigation Agency (NIA) on Wednesday carried out searches at the residential premises against its cadres in J&K. These raids are in continuation to the anti-terror agency's 61 raids conducted by its sleuths on August 8 and 9 in 14 districts of Jammu and Kashmir.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87298393.cms?width=320&height=183&quality=100",
+            "title": "Waqar Younis apologises for his 'namaz' comment, says sports unites people",
+            "content": "Waqar Younis on Wednesday apologised for his communal remarks during a television show following Pakistan's 10-wicket victory over India in the ongoing T20 World Cup as the former Pakistan pacer was castigated on social media for his \"jihadi mindset\".",
+            "contentFrom": "SPORTS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87296446.cms?width=320&height=183&quality=100",
+            "title": "T20 World Cup: New Zealand's Martin Guptill injured, doubtful for India clash",
+            "content": "Experienced opener Martin Guptill has been rendered a doubtful starter for New Zealand's 'Super 12' match against India on Sunday after he suffered a toe injury during their clash against Pakistan in the ongoing T20 World Cup.",
+            "contentFrom": "SPORTS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87296802.cms?width=320&height=183&quality=100",
+            "title": "CDS, Army Chief lay wreath at National War Memorial on 75th Infantry Day",
+            "content": "On the occasion of 75th Infantry Day, Chief of Defence Staff (CDS) General Bipin Rawat, along with Indian Army chief General MM Naravane, laid a wreath at the National War Memorial in the national capital, on Wednesday. Infantry Day is observed as a remembrance of the first military event of independent India.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87297474.cms?width=320&height=183&quality=100",
+            "title": "Tesla’s $1 trillion valuation belies its revenue position",
+            "content": "Unlike its trillion-dollar peers, Tesla’s valuation touched that level before its revenue could reach the $50-billion mark. Even though Tesla is the fifth-biggest company on the S&P 500 Index when ranked by market capitalization, it is in 89th place when ranked by last year’s annual revenue.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87296868.cms?width=320&height=183&quality=100",
+            "title": "US bans China Telecom over national security concerns",
+            "content": "The US Federal Communications Commission (FCC) found that China Telecom \"is subject to exploitation, influence, and control by the Chinese government and is highly likely to be forced to comply with Chinese government requests without sufficient legal procedures subject to independent judicial oversight.\"",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87297176.cms?width=320&height=183&quality=100",
+            "title": "Twitter battle turns ugly: Harbhajan Singh reminds Mohammad Amir of 'spot fixing' scandal",
+            "content": "It's been three days since India lost to Pakistan in the T20 World Cup, but tensions continue to flare on social media. In the latest episode, Harbhajan Singh and Mohammad Amir got involved in a Twitter feud late on Tuesday night.",
+            "contentFrom": "SPORTS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87295586.cms?width=320&height=183&quality=100",
+            "title": "WHO seeks 'additional clarifications' from Bharat Biotech for Covaxin to conduct final 'risk-benefit assessment'",
+            "content": "The World Health Organisation's technical advisory group on Tuesday sought \"additional clarifications\" from Bharat Biotech for its Covid-19 vaccine Covaxin to conduct a final \"risk-benefit assessment\" for Emergency Use Listing of the vaccine.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87296110.cms?width=320&height=183&quality=100",
+            "title": "T20 World Cup: Team India welcomes unusually long break",
+            "content": "At the moment, the set of 15 Indian cricketers in the UAE could barter anything to squeeze out some time for a breather. Form, fitness and combinations aside, all the Indian team would have wanted was some time to revitalize going into a high-octane, emotionally-charged match like the one they played against Pakistan on Sunday night.",
+            "contentFrom": "SPORTS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87283799.cms?width=320&height=183&quality=100",
+            "title": "Navy commander among 5 held for leaking info",
+            "content": "A serving naval officer and two retired ones, along with two “private persons”, have been arrested by the CBI in connection with the alleged leaking of confidential information related to the modernization of the Kilo-class conventional submarines.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87295012.cms?width=320&height=183&quality=100",
+            "title": "Google-parent Alphabet earns record profit on ad surge",
+            "content": "Google's parent company Alphabet announced profits Tuesday that jumped to $18.9 billion, even as the online colossus faces increased regulatory pressure and shifting of the lockdown lifestyles that have so benefited Big Tech.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87292278.cms?width=320&height=183&quality=100",
+            "title": "Double jabs, negative report must to fly to US from Nov 8",
+            "content": "Come November 8 and foreign travellers who are fully vaccinated with WHO-approved jabs and have a negative Covid report from a test taken within 72 hours of departure can enter the US. For travellers from India, it means the lifting of restrictions imposed on May 4 at the height of India's second Covid wave.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87294837.cms?width=320&height=183&quality=100",
+            "title": "FDA panel backs Pfizer's low-dose Covid-19 vaccine for kids",
+            "content": "A Food and Drug Administration advisory panel voted unanimously, with one abstention, that the vaccine's benefits in preventing Covid-19 in that age group outweigh any potential risks. That includes questions about a heart-related side effect that's been very rare in teens and young adults despite their use of a much higher vaccine dose.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87294531.cms?width=320&height=183&quality=100",
+            "title": "US stocks: Wall Street closes at record high but Facebook weighs",
+            "content": "The Dow Jones Industrial Average rose 15.73 points, or 0.04%, to 35,756.88; the S&P 500 gained 8.31 points, or 0.18%, at 4,574.79; and the Nasdaq Composite added 9.01 points, or 0.06%, at 15,235.72.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87293998.cms?width=320&height=183&quality=100",
+            "title": "Pakistan army has its way, PM notifies appointment of Lt Gen Anjum as ISI chief",
+            "content": "Pakistan PM Imran Khan notified on Tuesday the appointment of Lt General Nadeem Ahmed Anjum as the new chief of Inter-Services Intelligence (ISI), paving the way for the implementation of the early decision taken by the country's army chief regarding the nomination of the new spymaster. He will replace Lt General Faiz Hameed from next month.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87293763.cms?width=320&height=183&quality=100",
+            "title": "Radio Mirchi Q2 revenue grows by 46%",
+            "content": "Entertainment Network (India) Ltd, or ENIL, has reported a 46.3% growth in revenue for the quarter ended September 30. The surge came on the back of a strong 50% growth in radio and 51% in the solutions business, the operator of India's No.1 FM radio channel, Radio Mirchi, said on Tuesday while announcing results for the second quarter.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87291875.cms?width=320&height=183&quality=100",
+            "title": "Hundreds at Kheri rally, why only 23 eyewitnesses: SC",
+            "content": "The Supreme Court on Tuesday questioned UP Police on why there were only 23 eyewitnesses in the Lakhimpur Kheri violence case when hundreds of people were present at the rally and also directed the UP government to provide protection to all of them.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87291888.cms?width=320&height=183&quality=100",
+            "title": "Can't impose Kannada: Karnataka HC",
+            "content": "Students coming from outside Karnataka can't be compelled to learn Kannada language, be it classical or functional, the high court on Tuesday orally observed, granting time to the state government to reconsider the issue.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87291230.cms?width=320&height=183&quality=100",
+            "title": "Expedite coverage of 2nd dose, government to tell states",
+            "content": "In a move to ramp up coverage of Covid vaccines, particularly the second dose among those who are overdue, Union health minister Mansukh Mandaviya has called a meeting with health ministers of states and Union territories on Wednesday to review the situation and expedite the coverage so that all of the adult population can be covered with at least one dose by December.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87291822.cms?width=320&height=183&quality=100",
+            "title": "Govt to slap UAPA on Pak cheerleaders at J&K college",
+            "content": "The students at the Government Medical College (GMC) and Sher-i-Kashmir Institute of Medical Sciences (SKIMS) in Srinagar who led the celebrations of Pakistan’s victory over India in Sunday’s T20 World Cup cricket match will be charged under the Unlawful Activities (Prevention) Act for having sung Pakistan’s national anthem in a government-funded institution.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87291281.cms?width=320&height=183&quality=100",
+            "title": "FDA advisers back Pfizer's Covid-19 vaccine for young kids",
+            "content": "panel of US health advisers on Tuesday endorsed kid-size doses of Pfizer’s Covid-19 vaccine, moving the US closer to beginning vaccinations in children ages 5 to 11.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87289775.cms?width=320&height=183&quality=100",
+            "title": "Dismissed: Germany's Merkel becomes caretaker chancellor",
+            "content": "Angela Merkel took a step closer to political retirement Tuesday after receiving her formal dismissal certificate from the post of chancellor after 16 years in office, though she will lead a caretaker government until her successor is sworn in.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87288915.cms?width=320&height=183&quality=100",
+            "title": "Air India to add US nonstops post Nov 8 when Uncle Sam reopens for fully vaccinated travellers",
+            "content": "This could be the last expansion of services by state-owned Air India before it transits to the Tata Group and the big bang expansion then. The Maharaja will be adding its highly popular US nonstops from next month as Uncle Sam reopens for fully vaccinated foreign travellers stating November 8.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87286556.cms?width=320&height=183&quality=100",
+            "title": "BJP demands Meghalaya Guv resignation after his corruption remark",
+            "content": "A day after former Goa governor Satya Pal Malik levelled serious corruption charges against the state government, BJP on Tuesday demanded his resignation. Malik is currently the Governor of Meghalaya.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87286482.cms?width=320&height=183&quality=100",
+            "title": "US consumer confidence rebounds in October: Survey",
+            "content": "US consumer confidence bounced back in October after falling for three consecutive months as fears about the latest wave of Covid-19 infections diminished, according to an industry survey published Tuesday.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87285991.cms?width=320&height=183&quality=100",
+            "title": "India targets major global firms for local battery manufacturing: Report",
+            "content": "India plans to pitch to companies such as Tesla Inc, Samsung and LG Energy to encourage them to invest in manufacturing batteries locally, as it looks to establish a domestic supply chain for clean transport, two government sources told Reuters.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87285741.cms?width=320&height=183&quality=100",
+            "title": "YouTube, TikTok, Snapchat offering only small changes to ensure safety of young users: US Senator",
+            "content": "YouTube, TikTok and Snapchat are offering only \"tweaks and minor changes\" in their operations to ensure young users' safety amid rising concern over the platforms' potential harm to children, the head of a Senate panel told the companies' executives Tuesday.",
+            "contentFrom": "WORLD"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87285250.cms?width=320&height=183&quality=100",
+            "title": "Farmers protest: Samyukt Kisan Morcha, United Sikhs to work in tandem",
+            "content": "United Sikhs, an advocacy organisation affiliated to the United Nations, has been applauded by the Samyukt Kisan Morcha (SKM), an umbrella organisation of 32 farmer bodies leading protests at the borders of New Delhi.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87285230.cms?width=320&height=183&quality=100",
+            "title": "Rahul Dravid applies for coach's job; BCCI wants either VVS Laxman or Anil Kumble for NCA",
+            "content": "Rahul Dravid and his support staff will be given a two-year contract till the 2023 World Cup in India. Dravid will draw a salary of Rs 10 crore. The board has still not made up its mind on the fielding coach to replace R Sridhar.",
+            "contentFrom": "SPORTS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87284478.cms?width=320&height=183&quality=100",
+            "title": "Tax revenues likely to beat forecast on strong recovery: Report",
+            "content": "The government expects tax revenues for the current financial year to be 10% above budget, beating forecasts for the first time in four years, two officials said, as the economy powers back towards pre-pandemic levels.",
+            "contentFrom": "BUSINESS"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87284649.cms?width=320&height=183&quality=100",
+            "title": "WHO Covaxin review: 'Outcome likely in 24 hrs'",
+            "content": "Hyderabad-based Bharat Biotech, which has developed Covaxin, had submitted EOI (Expression of Interest) to the WHO on April 19 for the vaccine's Emergency Use Listing (EUL). \"If the committee is satisfied, we would expect a recommendation within the next 24 hours or so,\" a WHO spokesperson told reporters.",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87277022.cms?width=320&height=183&quality=100",
+            "title": "SC reserves judgement on grant of reservation in promotion to SCs/STs",
+            "content": "The Supreme Court Tuesday reserved its judgement on the issue of the grant of reservation in promotion to the Scheduled Castes (SCs) and Scheduled Tribes (STs) in government jobs. A three-judge bench headed by Justice Nageswara Rao heard all the parties in the matter including Attorney General K K Venugopal, Additional Solicitor General (ASG) Balbir Singh, and other senior lawyers...",
+            "contentFrom": "INDIA"
+        },
+        {
+            "urlToImg": "https://timesofindia.indiatimes.com/thumb/87275943.cms?width=320&height=183&quality=100",
+            "title": "Rahul Gandhi to visit Goa on October 30",
+            "content": "During the visit to Goa, Rahul Gandhi would address a convention of Congress workers at SPM Stadium in Bambolim and also participate in various other party-level events scheduled that day, Congress state party chief Girish Chodankar told PTI.",
+            "contentFrom": "INDIA"
+        }
     ]
 }

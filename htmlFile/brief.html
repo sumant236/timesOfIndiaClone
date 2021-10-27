@@ -7,6 +7,9 @@
     <title>News in Brief: Today's News Top Headlines & Breaking News on Times of India</title>
     <link rel="shortcut icon" href="https://timesofindia.indiatimes.com/icons/toifavicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../cssFile/brief.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -19,19 +22,19 @@
                 <p class="nav-p">| GadgetsNow</p>
             </div>
             <div>
-                <button class="icon"><i class="fas fa-crown" style="color: yellow;"></i> Log in & claim your 5 points</button>
+                <button class="icon"><i id="crown" class="fas fa-crown"></i> Log in & claim your 5 points</button>
                 <a id="signup" href="#">SIGN IN</a>
-                <i class="fab fa-twitter"></i>
-                <i class="fas fa-rss"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-youtube"></i>            </div>
+                <i class="nav-icon fab fa-twitter fa-sm"></i>
+                <i class="nav-icon fab fa-facebook-f fa-sm"></i>
+                <i class="nav-icon fas fa-rss fa-sm"></i>
+                <i class="nav-icon fab fa-youtube fa-sm"></i>            </div>
         </div>
         <div id="nav-2">
-            <img src="https://static.toiimg.com/photo/45372282.cms"/>
+            <img id="toi-img" src="https://static.toiimg.com/photo/45372282.cms"/>
         </div>
         <div id="nav-3">
             <div>
-                <i class="fas fa-home"></i>
+                <i class="nav3-icon fas fa-home"></i>
                 <button id="brief">Brief</button>
                 <p>India</p>
                 <p>Sports</p>
@@ -44,7 +47,7 @@
                 <p>Elections</p>
             </div>
             <div>
-                <i class="fas fa-search"></i>
+                <i class="nav3-icon fas fa-search"></i>
             </div>
         </div>
         <div id="nav-4">
@@ -53,7 +56,7 @@
         </div>
     </nav>
     <form>
-        <h1>NEWS IN BRIEF<ss/h1>
+        <h1>NEWS IN BRIEF</h1>
         <div id="container"></div>
     </form>
     <script src="https://kit.fontawesome.com/32650486ba.js" crossorigin="anonymous"></script>
