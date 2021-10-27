@@ -1,0 +1,93 @@
+body{
+    background: #ECEFF1;
+}
+nav{
+    background: #000;
+    color: white;
+}
+form{
+    width: 80%;
+    margin: auto;
+}
+#nav-1{
+    background: #263238;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#nav-1 > div{
+    display: flex;
+    margin: 0px;
+}
+.nav-p, #nav-3 >div >p, #nav-4> p{
+    padding-top: 6px;
+    margin: 0px;
+}
+#nav-1 > div:nth-child(2){
+    gap: 10px;
+    padding: 2px;
+}
+#lang{
+    background: #263238;
+    border: none;
+    color: white;
+}
+.icon{
+    border: none;
+    width: 200px;
+    color: white;
+    padding: 3px;
+    background: linear-gradient(to left, #F48FB1, #1A237E);
+    height: 30px;
+}
+i, #signup{
+    color: white;
+    text-decoration: none;
+    padding-top: 7px;
+}
+#nav-2 > img{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 40px;
+}
+#nav-3{
+    background: #D50000;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+#nav-3 > div{
+    display: flex;
+    gap: 0.7rem;
+}
+#brief{
+    color: white;
+    background: #666;
+    border: none;
+    padding: 5px;
+    margin: 0px;
+    position: relative;
+}
+#brief::after{
+    content: "";
+    display: block;
+    position: absolute;
+    border-color: transparent #666;
+    border-style: solid;
+    border-width: 13px 0px 13px 13px;
+    top: 0;
+    left: 100%;
+}
+#nav-4{
+    display: flex;
+    background: white;
+}
+#nav-4 > p:nth-child(1){
+    color: #888;
+    padding-left: 15%;
+}
+#nav-4 > p:nth-child(2){
+    color: #000;
+}
