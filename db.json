@@ -288,5 +288,240 @@
             "content": "During the visit to Goa, Rahul Gandhi would address a convention of Congress workers at SPM Stadium in Bambolim and also participate in various other party-level events scheduled that day, Congress state party chief Girish Chodankar told PTI.",
             "contentFrom": "INDIA"
         }
+    ],
+    "educationNews":[
+        {
+            "education": [
+                {
+                    "head": "EDUCATION NEWS",
+                    "img": "",
+                    "imgtxt": "NEET UG 2021 result to be declared soon at neet.nta.nic.in",
+                    "title":[
+                        {
+                            "news1": "WB Madhyamik, Higher Secondary exams likely to be offline in 2022",
+                            "news2": "1st-year UG, PG classes in Odisha to begin from November",
+                            "news3":"Education ministry notifies four-year Integrated Teacher Education",
+                            "news4":"Andhra earmarks 35% BTech, Agri seats in private varsities under",
+                            "news5":"MP school education department conducts camp for physically",
+                            "news6":"Schools in Himachal to remain closed from Nov 1 to 6 for Diwali break",
+                            "news7":"Gujarat Police Constable Recruitment 2021: Apply online for 10,459 vacancies",
+                            "news8":"Indian Navy MR Recruitment 2021: Notification released",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "jobs": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "stateBoard": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "entrance": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "examResult": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "admission": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "cbseBoard": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "timesStudy": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "educationVideos": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "medical": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ],
+            "engineering": [
+                {
+                    "head": "",
+                    "img": "",
+                    "imgtxt": "",
+                    "title":[
+                        {
+                            "news1": "",
+                            "news2": "",
+                            "news3":"",
+                            "news4":"",
+                            "news5":"",
+                            "news6":"",
+                            "news7":"",
+                            "news8":"",
+                            "news9":"",
+                            "news10":""
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
