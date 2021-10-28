@@ -76,3 +76,61 @@
     })
     mainContainer.append(container)
 })();
+
+// Section Four
+
+(async function sectionFourContainerLowerLeft(){
+    let data = await fetch('http://localhost:3000/sectionFourHeadlineLeft')
+    data = await data.json()
+    var mainContainer = document.querySelector('.sectionFourContainerLowerLeft')
+    var container = document.createElement('div')
+    data.forEach(function(ele){
+        var newDiv = document.createElement('div')
+        newDiv.classList.add('sectionOneHeadlineMiddleCard')
+        var newA = document.createElement('img')
+        newA.src = ele.imageURL
+        newDiv.append(newA)
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        newDiv.append(newP)
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();
+
+
+(async function sectionFourContainerLowerMiddle(){
+    let data = await fetch('http://localhost:3000/sectionFourHeadlineMiddle')
+    data = await data.json()
+    // console.log(data);
+    var container = document.createElement('div')
+    container.classList.add('sectionOneHeadlineRightContainer')
+    var mainContainer = document.querySelector('.sectionFourContainerLowerMiddle')
+    data.forEach(function(ele){
+        var newA = document.createElement('p')
+        newA.classList.add("sectionOneHeadlineRightCard")
+        newA.innerText = "ߋ"+"   "+ele.title.slice(0,52)+"..."
+        container.append(newA)
+    })
+    mainContainer.append(container)
+})();
+
+
+(async function sectionFourContainerLowerRight(){
+    let data = await fetch('http://localhost:3000/sectionFourHeadlineRight')
+    data = await data.json()
+    var mainContainer = document.querySelector('.sectionFourContainerLowerRight')
+    var container = document.createElement('div')
+    data.forEach(function(ele){
+        var newDiv = document.createElement('div')
+        newDiv.classList.add('sectionFourContainerLowerRightCard')
+        var newA = document.createElement('img')
+        newA.src = ele.imageURL
+        newDiv.append(newA)
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        newDiv.append(newP)
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();
