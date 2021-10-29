@@ -730,4 +730,268 @@ a {
 .sectionFourContainerThird > div:nth-child(2) > iframe {
   width: 30%;
 }
+
+.sectionFourContainerForth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 2%;
+  border-top: 1px dotted gray;
+}
+
+.sectionFourContainerForth > p {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.sectionFourContainerForth > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.sectionFourContainerThirdExtra {
+  border-bottom: 1px dotted gray;
+}
+
+.FiveCity {
+  padding: 2% 0;
+  margin-top: 2px;
+  border-bottom: 1px dotted gray;
+  border-top: 1px dotted gray;
+}
+
+.FiveCityUpper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1% 0;
+  width: 100%;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.FiveCityUpper > p {
+  margin-right: 15px;
+}
+
+.FiveCityLower {
+  width: 100%;
+}
+
+.FiveCityLowerUpper {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 1.5%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-right: 1px dotted gray;
+  font-weight: 500;
+}
+
+.FiveCityLowerUpper > div {
+  width: 50%;
+}
+
+.FiveCityLowerUpper > div > img {
+  width: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+}
+
+.FiveCityLowerLower {
+  width: 70%;
+}
+
+.FiveCityLowerLower > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.FiveCityLowerLower > div > p {
+  border-right: 1px dotted gray;
+  width: 25%;
+  font-weight: 500;
+  padding: 2%;
+}
+
+.indiaFightCovid {
+  width: 100%;
+  padding: 2%;
+  margin-top: 2px;
+  border-top: 1px dotted gray;
+}
+
+.indiaFightCovid > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.indiaFightCovid > div > div {
+  width: 15%;
+}
+
+.indiaFightCovid > div > div > p {
+  margin-top: 15px;
+}
+
+.indiaFightCovid > div > div > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.indiaFightCovidSecond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: 500;
+  padding: 2%;
+}
+
+.indiaFightCovidSecond > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.indiaFightCovidSecond > p {
+  margin-right: 15px;
+}
+
+.indiaFightCovidThird {
+  width: 100%;
+  padding: 5%;
+  margin-bottom: 5px;
+  background-color: #FFF5F6;
+  border-bottom: 1px dotted gray;
+}
+
+.indiaFightCovidThird > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.indiaFightCovidThird > div > div {
+  width: 30%;
+  font-weight: 500;
+}
+
+.indiaFightCovidThird > div > div > p {
+  margin-top: 15px;
+}
+
+.indiaFightCovidThird > div > div > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.lifestyleHeading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 5% 0;
+}
+
+.lifestyleHeading > p {
+  margin-right: 15px;
+}
+
+.lifestyle {
+  padding-bottom: 3%;
+  border-bottom: 1px dotted gray;
+}
+
+.lifestyle > div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.lifestyle > div > div {
+  width: 100%;
+}
+
+.lifestyle > div > div > p {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.lifestyle > div > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.lifestyle > div > div > div > p {
+  font-weight: 500;
+  padding: 2%;
+}
+
+.lifestyle > div > div > div > p:nth-child(1) {
+  border-right: 1px dotted gray;
+}
+
+.lifestyle > div > div > img {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 100%;
+  height: 206px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.lifestyleSecond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 2%;
+  border-bottom: 1px dotted gray;
+}
+
+.lifestyleSecond > p {
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.lifestyleSecond > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
 /*# sourceMappingURL=header.css.map */

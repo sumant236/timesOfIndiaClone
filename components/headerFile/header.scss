@@ -534,3 +534,201 @@ a{
         }
     }
 }
+
+.sectionFourContainerForth{
+    display: flex;
+    justify-content:flex-start;
+    padding: 2%;
+    border-top: 1px dotted gray;
+    &>p{
+        margin-right: 15px;
+        font-weight: 500;
+        
+    }
+    &>p:nth-child(1){
+        color: $redColor;
+        font-weight:600;
+    }
+}
+.sectionFourContainerThirdExtra{
+    
+    border-bottom: 1px dotted gray;
+}
+// Section Five
+
+.FiveCity{
+    padding:2% 0;
+    margin-top: 2px;
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+}
+.FiveCityUpper{
+    display: flex;
+    padding: 1% 0;
+    width: 100%;
+    font-size:23px;
+    font-weight:600;
+
+    &>p{
+        margin-right: 15px;
+    }
+}
+.FiveCityLower{
+    width: 100%;
+}
+.FiveCityLowerUpper{
+    width:70%;
+    display: flex;
+    padding-right:1.5%;
+    justify-content: space-between;
+    border-right: 1px dotted gray;
+    font-weight: 500;
+    &>div{
+        width: 50%;
+
+        &>img{
+            width: 80%;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+    }
+}
+.FiveCityLowerUpperRight{
+
+}
+.FiveCityLowerLower{
+    width: 70%;
+    &>div{
+        
+        display: flex;
+    }
+    &>div>p{
+        // border: 1px solid red;
+        border-right: 1px dotted gray;
+        width: 25%;
+        font-weight: 500;
+        padding: 2%;
+    }
+}
+.indiaFightCovid{
+    width: 100%;
+    padding:2%;
+    margin-top: 2px;
+    border-top: 1px dotted gray;
+    &>div{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        &>div{
+            width: 15%;
+            &>p{
+                margin-top: 15px;
+            }
+            &>img{
+                object-fit: contain;
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.indiaFightCovidSecond{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
+    padding: 2%;
+    &>p:nth-child(1){
+        color: $redColor;
+        font-weight: 600;
+    }
+    &>p{
+        margin-right: 15px;
+    }
+}
+.indiaFightCovidThird{
+    width: 100%;
+    padding:5%;
+    margin-bottom: 5px;
+    background-color:#FFF5F6;
+    border-bottom: 1px dotted gray;
+    &>div{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        
+        &>div{
+            width: 30%;
+            font-weight: 500;
+            &>p{
+                margin-top: 15px;
+            }
+            &>img{
+                object-fit: contain;
+                width: 100%;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.lifestyleHeading{
+    display: flex;
+    justify-content: flex-start;
+    font-size:28px;
+    font-weight: 600;
+    padding: 5% 0;
+    &>p{
+        margin-right: 15px;
+    }
+}
+.lifestyle{
+    padding-bottom: 3%;
+    border-bottom: 1px dotted gray;
+    &>div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+        // width: 100%;
+        &>div{
+            &>p{
+                font-size:23px;
+                font-weight: 600;
+            }
+            width:100%;
+            &>div{
+                display: flex;
+                justify-content: space-between;
+                // border:1px solid red;
+                margin-top: 15px;
+                &>p{
+                    font-weight: 500;
+                    padding: 2%;
+                }
+                &>p:nth-child(1){
+                    border-right: 1px dotted gray;
+                }
+            }
+            &>img{
+                margin-top: 20px;
+                border-radius: 10px;
+                width: 100%;
+                height: 206px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.lifestyleSecond{
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%;
+    border-bottom: 1px dotted gray;
+    &>p{
+        font-weight: 500;
+        margin-right: 15px;
+    }
+    &>p:nth-child(1){
+        color: $redColor;
+        font-weight:600;
+    }
+}

@@ -267,6 +267,174 @@
       {
         "title":"Happy Birthday, Dileep: Best movies of the actor"
       }
+    ],
+
+    "citySectionOne":[
+      {
+        "title":"Delhi: Hospitals under pressure as dengue cases soar"
+      },
+      {
+        "title":"Bedridden elderly professors hang selves in Delhi"
+      },
+      {
+        "title":"Tiwari urges all to follow protocols"
+      },
+      {
+        "title":"SDMC picks 10 wards to boost primary healthcare facilitie"
+      },
+      {
+        "title":"Farmer protest: Plea seeks FIR against Haryana CM"
+      }
+    ],
+    "citySectionTwo":[
+      {
+        "title":"Ayodhya included in Delhi govt’s ‘Tirth Yatra Yojana’, to be"
+      },
+      {
+        "title":"Delhi govt includes Ayodhya in free Tirth Yatra scheme for"
+      },
+      {
+        "title":"90% in Delhi have antibodies against Covid: Survey"
+      },
+      {
+        "title":"DDMA okays Chhath puja celebrations at 'fixed sites'"
+      }
+    ],
+    "coranaVirusSectionOne":[
+      {
+        "title":"Shashi Tharoor credits government for Covid vaccin"
+      },
+      {
+        "title":"Wishes pour in from WHO, Bhutan, Sri Lanka as In"
+      },
+      {
+        "title":"Home minister Amit Shah congratulates country on "
+      },
+      {
+        "title":"India shows exemplary capabilities to ensure people"
+      },
+      {
+        "title":"Covishield may offer over 90% protection against death"
+      }
+    ],
+    "coranaVirusSectionTwo":[
+      {
+        "title":"Centre has asked for vaccinating those over 17 years against"
+      },
+      {
+        "title":"Biological E hopes to roll out Covid-19 vaccine Corbevax by"
+      },
+      {
+        "title":"Schools, colleges in Bengal to reopen from November 15:"
+      },
+      {
+        "title":"Serum Institute could export 20-30 million vaccine doses a"
+      }
+    ],
+    "indiaFightCovid":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/87307441.cms?width=150&resizemode=4&imgsize=50204",
+        "title":"New sublineage of coronavirus, AY.4.2 classified as a rising"
+
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/87184068.cms?width=680&height=512&imgsize=66468",
+        "title":"Getting a flu shot can prevent some severe COVID-symptoms"
+
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/87162873.cms?width=680&height=512&imgsize=35302",
+        "title":"Covaxin for kids : What are the side-effects we can expect?"
+
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/87129087.cms?width=680&height=512&imgsize=46862",
+        "title":"How to tell if your long flu case was actually COVID"
+
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/87106336.cms?width=680&height=512&imgsize=27342",
+        "title":"Mixing Covaxin and Covishield safe and effective: ICMR"
+
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/87059981.cms?width=680&height=512&imgsize=34790",
+        "title":"Children can spread COVID and its variants: Study"
+
+      }
+    ],
+    "sectionFiveExplore":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/',width-1000,height-562,',msid-87314400,imgsize=187562/87314400.jpg",
+        "title":"Facebook Leaks explained in 5 Points"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/',width-1000,height-562,',msid-87314295,imgsize=52746/87314295.jpg",
+        "title":"How narcotics law become a tool to exploit the poor"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/width-1000,height-562,imgsize-93680,overlay-toiplus_opinion,msid-87299921/87299921.jpg",
+        "title":"How an outsider became BJP's top man in Karnataka"
+      }
+    ],
+    "lifestyle":[
+      {
+        "mainTitle":"HEALTH & FITNESS",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-172564,msid-87315706,width-500,resizemode-4/87315706.jpg",
+        "titleOne":"Weight loss: Three drinks to spike your metabolism",
+        "titleTwo":"Surprising health benefits of seaweed"
+      },
+      {
+        "mainTitle":"FASHION",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-934559,msid-87305953,width-500,resizemode-4/87305953.jpg",
+        "titleOne":"All the bling outfits rocked by Mouni Roy",
+        "titleTwo":"Bhumi's lehenga is certainly not run-of-the-mill"
+      },
+      {
+        "mainTitle":"RELATIONSHIP",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-1027285,msid-87310864,width-500,resizemode-4/87310864.jpg",
+        "titleOne":"Things you can, cannot control in a marriage",
+        "titleTwo":"5 people share first-time stories of sex after marriage"
+      },
+      {
+        "mainTitle":"BEAUTY",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-96372,msid-87305507,width-500,resizemode-4/87305507.jpg",
+        "titleOne":"Six homemade night packs for a glowing skin",
+        "titleTwo":"Makeup artists want you to stop believing these things"
+      },
+      {
+        "mainTitle":"PARENTING",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-38670,msid-87313484,width-500,resizemode-4/87313484.jpg",
+        "titleOne":"5 ways to help a child deal with anger",
+        "titleTwo":"Celebrities' postpartum struggles"
+      },
+      {
+        "mainTitle":"KOREAN WAVE",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-91546,msid-87287054,width-500,resizemode-4/87287054.jpg",
+        "titleOne":"Truth about Kim Seon Ho’s relationship",
+        "titleTwo":"aespa's Giselle apologises for mouthing racial slur"
+      },
+      {
+        "mainTitle":"TRAVEL",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87301696,width-500,resizemode-4/87301696.jpg",
+        "titleOne":"Singapore is now open for Indians; here are its top travel",
+        "titleTwo":"10 best homestays in Himachal Pradesh for winter"
+      },
+      {
+        "mainTitle":"BEAUTY PAGEANTS",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-169135,msid-87149835,width-500,resizemode-4/87149835.jpg",
+        "titleOne":"Roshni Dada wins Supermodel of the Year S2",
+        "titleTwo":"Manika Sheokand joins beach cleaning drive"
+      },
+      {
+        "mainTitle":"FEMINA",
+        "imageURL":"https://femina.wwmindia.com/content/2021/oct/parenting-thumb1634902185.jpg",
+        "titleOne":"We Can’t Get Over Kourtney’s Straight Hair",
+        "titleTwo":"Creator Neha Nagar Puts Up Content On Finance & Taxation"
+      }
     ]
+
+
+
     
 }
