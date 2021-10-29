@@ -289,239 +289,260 @@
             "contentFrom": "INDIA"
         }
     ],
-    "educationNews":[
+    "educationNews":
         {
             "education": [
                 {
                     "head": "EDUCATION NEWS",
-                    "img": "",
+                    "img": "https://static.toiimg.com/photo/87328514.cms",
                     "imgtxt": "NEET UG 2021 result to be declared soon at neet.nta.nic.in",
                     "title":[
                         {
                             "news1": "WB Madhyamik, Higher Secondary exams likely to be offline in 2022",
                             "news2": "1st-year UG, PG classes in Odisha to begin from November",
                             "news3":"Education ministry notifies four-year Integrated Teacher Education",
-                            "news4":"Andhra earmarks 35% BTech, Agri seats in private varsities under",
-                            "news5":"MP school education department conducts camp for physically",
-                            "news6":"Schools in Himachal to remain closed from Nov 1 to 6 for Diwali break",
-                            "news7":"Gujarat Police Constable Recruitment 2021: Apply online for 10,459 vacancies",
-                            "news8":"Indian Navy MR Recruitment 2021: Notification released",
-                            "news9":"",
-                            "news10":""
+                            "news4":"",
+                            "news5":"Andhra earmarks 35% BTech, Agri seats in private varsities u nder",
+                            "news6":"MP school education department conducts camp for physically",
+                            "news7":"Schools in Himachal to remain closed from Nov 1 to 6 for Diwali break",
+                            "news8":"",
+                            "news9":"Gujarat Police Constable Recruitment 2021: Apply online for 10,459 vacancies",
+                            "news10":"Indian Navy MR Recruitment 2021: Notification released",
+                            "news11":"SSC CHSL Skill Test 2019 Admit Card released, download here",
+                            "news12":"JKBOSE Class 12 Board exams data sheet released, exams from Nov 9"
                         }
                     ]
                 }
             ],
             "jobs": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "JOBS NEWS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-88198,msid-87282845,width-150,resizemode-4/87282845.jpg",
+                    "imgtxt": "SSC Admit Card for SI in Delhi Police and CAPF Paper-II Examination 2020 released",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "SSC CHSL Skill Test 2019 Admit Card released, download here",
+                            "news2": "Gujarat Police Constable Recruitment 2021: Apply online for 10,459",
+                            "news3":"Indian Navy MR Recruitment 2021: Notification released,",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"IOCL Recruitment 2021: Apply online for 1968 Trade Apprentice and other posts",
+                            "news6":"NHM AP Recruitment 2021: Apply for 3393 Mid-Level Health Providers posts",
+                            "news7":"DRDO Recruitment 2021: Apply online for 12 Apprentice posts",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"SSC Constable (GD) application status 2021 released, admit card soon",
+                            "news10":"HSSC SI Male PST, PMT, and scrutiny admit card releases, here's link",
+                            "news11":"TN TRB Admit Card for Lecturers exam 2021 released, download here",
+                            "news12":"Biar Police Constable exam 2021 result released; Admit Card for PET from Oct 25"                            
                         }
                     ]
                 }
             ],
             "stateBoard": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "STATE BOARD EXAMS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-87760,msid-87281079,width-150,resizemode-4/87281079.jpg",
+                    "imgtxt": "JKBOSE Class 12 Board exams date sheet released, exams from Nov 9",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "ISC exams to begin on November 22, ICSE on November 29; will be offline",
+                            "news2": "Coimbatore: CBSE schools ready students for MCQ-based Term I exam",
+                            "news3":"JAC Jharkhand Board releases special and other exam result",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"CHSE Result 2021: 98.58% students padd Odisha Plus 2 exams",
+                            "news6":"CiSce to conduct ICSE, ISC compartment exams from August 18, result on Sept 20",
+                            "news7":"WB Board passes all students in its review of Class 12 results",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"Odisha announces higher secondayr results of science and commerce stream",
+                            "news10":"UBSE results: Over 99% students clear exams",
+                            "news11": "Maharastra HSC result 2021 announced",
+                            "news12": "10-year-old Krishna passes Class 10 exam in UP"
                         }
                     ]
                 }
             ],
             "entrance": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "ENTRANCE EXAMS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-33144,msid-87217705,width-150,resizemode-4/87217705.jpg",
+                    "imgtxt": "UGC NET 2021 revised exam dates released, check full schedule here",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "UPSC NDA/NA II Admit Cards 2021 released, download here",
+                            "news2": "CTET 2021 application last date extended to October 25",
+                            "news3":"AP-RCET 2021 application registration begins at sche.ap.gov.in",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"UGC-NET 2021 postponed again, new exam dates soon",
+                            "news6":"JEE Advanced 2021 answer key released, submit feedback by Oct 11",
+                            "news7":"IPU CET Result 2021 for BJMC, BBA, BCA, B.Com(H) and B.Ed. released,",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"CUCET Answer Keys 2021 released, challende up to Oct 5",
+                            "news10":"AP PGECET Answer Key 2021 released at sche.ap.gov.in, check here",
+                            "news11": "BHU UET 2021: Exam date for test paper codes 104 and 105 rescheduled to Oct",
+                            "news12": "JEE Advanced 2021: Math toughest, say scholars"
                         }
                     ]
                 }
             ],
             "examResult": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "EXAMS RESULT NEWS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-88033,msid-78784235,width-150,resizemode-4/78784235.jpg",
+                    "imgtxt": "CGBSE Revaluation 2020 result for 10th and 12th released, check here",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "Anna University reslt 2020: All students except final semester registered",
+                            "news2": "TS SSC Results 2020: Telangana 10th Marks emo released @",
+                            "news3":"Telangana University result declared for Dec-Jan 2019-20 exams, here's",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"Results of classes IX and XI to be declared on April 20: Chandigarh Education",
+                            "news6":"Bihar BSEB Board 12th Result 2020 declared; check here",
+                            "news7":"TNTEU B.Ed May/June result 2019 announced; result link now available",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"RPSC SI result , cut-off marks 2019 for PET released",
+                            "news10":"MUHS UG/PG Result 2019 released @muhs.edu.in",
+                            "news11": "Osmania University MBA (CBCs) May/June and Jul/Aug 2019 results",
+                            "news12": "Maharastra SSC supplementary 2019 results to be announced this week."
                         }
                     ]
                 }
             ],
             "admission": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "ADMISSION NEWS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-782543,msid-84977132,width-150,resizemode-4/84977132.jpg",
+                    "imgtxt": "DU to increase college seats cut-offs likely to soar",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "TS DOST 2020: Application process for degree admission begins today",
+                            "news2": "KVS admission list 2020 for class 1 released, check application status here",
+                            "news3":"Gujarat University Final Merit Round 1 released for UG courses, here's direct",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"Kerala University UG admission process begins, register @",
+                            "news6":"KVS Admissions 2020: Kendriya Vidyalaya Class I registration to begin from",
+                            "news7":"DU admission forms 2020 for UG, PG, M.Phil./ Ph.D. courses available; check",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"JNVST 2020 for admission to Class 6 postponed, check details here",
+                            "news10":"BA most sough-after course this year in GACC",
+                            "news11": "Jamia Millia Islamia admission 2020: Online filing of admission forms for JMI",
+                            "news12": "Jamia Hamdard UG/PG admission begins: Check here how to fill online"
                         }
                     ]
                 }
             ],
             "cbseBoard": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "CBSE BOARD EXAMS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-111542,msid-87239754,width-150,resizemode-4/87239754.jpg",
+                    "imgtxt": "Only marks in first semester CBSE results",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "Only marks in first semester CBSE results",
+                            "news2": "CBSE Board Exams 2021-22: Time management key to high MCQ scores, says",
+                            "news3":"CBSE Board Exams 2021-22: Time management key to high MCQ scores, says",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"CBSE releases Term-1 date sheet, exams for major subjects to begin from Nov",
+                            "news6":"CBSE releases Term-1 date sheet, exams for major subjects to begin from Nov",
+                            "news7":"As CBSE boards pattern changes, adjustment tests schools, students",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"Pre-sem exam for boards kids: CBSE, CISCE schools to hold 1st-term test in MCQ",
+                            "news10":"CBSE class 10 result: Over 98 pc students pass; pvt schools outperform Delhi govt",
+                            "news11": "CBSE Classes X & XII date sheets for optional and compartment exams",
+                            "news12": "CBSE Classes X & XII date sheets for optional and compartment exams"
                         }
                     ]
                 }
             ],
             "timesStudy": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "TIMES STUDY ABROAD",
+                    "img": "https://static.toiimg.com/thumb/imgsize-74618,msid-87104169,width-150,resizemode-4/87104169.jpg",
+                    "imgtxt": "Bangladesh emerger as the New MBBS Abroad Destination for Indian Students",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "MBBS Abroad: Admission open for 2021 wth partial scholarship",
+                            "news2": "Russia offers free scholarships to Indian students",
+                            "news3":"Chinese students hit by US visa rejections amid tension",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"US University will continue with Test, Trace, Treat protocol",
+                            "news6":"Ukraine and Russia are leadin study destinations to purser MBBS abroad",
+                            "news7":"'Students hit visa jackpot for US in pandemic year'",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"Facilitating legitimate travel a top priority: American diplomat on allowing Indian",
+                            "news10":"Indian students 'positive' about UK courses despite lockdown",
+                            "news11": "Indian students enrolled in Italian universities stranded back home due to travel ban",
+                            "news12": "Indians studying medicine in China desperate to return to college"
                         }
                     ]
                 }
             ],
             "educationVideos": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "EDUCATION VIDEOS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-18158,msid-87129995,width-150,resizemode-4/87129995.jpg",
+                    "imgtxt": "CBSE DATE SHEET 2021: Key points",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "How to download SBI Clerk Prelims result?",
+                            "news2": "How to check JEE Main 2021 Result & Ranks?",
+                            "news3":"How to Check AP EAMCET Result 2021?",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"How to download NEET UG 2021 Admit Card?",
+                            "news6":"How to download Rajasthan PTET 2021 admit card?",
+                            "news7":"How to download AP EAMCET Hall Ticket 2021?",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"How to check and download CBSE Class 12 Result 2021?",
+                            "news10":"How to check and download CBSE Class 10 Result 2021?",
+                            "news11": "How to check Karnataka Class 10 Result 2021?",
+                            "news12": "How to check Andhra Pradesh class 10 result?"
                         }
                     ]
                 }
             ],
             "medical": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "MEDICAL NEWS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-7579,msid-81970073,width-150,resizemode-4/81970073.jpg",
+                    "imgtxt": "NEET UG Contact Details",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "NEET UG Result",
+                            "news2": "NEET UG Answer Key",
+                            "news3":"NEET UG Admit Card",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"NEET UG Application Form",
+                            "news6":"NEET UG Eligibility",
+                            "news7":"NEET UG Exam Pattern and Syllabus",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"AIIMS MBBS UG Contact Details",
+                            "news10":"AIIMS MBBS UG Results",
+                            "news11": "NEET UG Important Dates",
+                            "news12": "National Eligibilty Cum Entrance Test UG (NEET UG)"
                         }
                     ]
                 }
             ],
             "engineering": [
                 {
-                    "head": "",
-                    "img": "",
-                    "imgtxt": "",
+                    "head": "ENGINEERING NEWS",
+                    "img": "https://static.toiimg.com/thumb/imgsize-260866,msid-82017144,width-150,resizemode-4/82017144.jpg",
+                    "imgtxt": "Contact Information",
                     "title":[
                         {
-                            "news1": "",
-                            "news2": "",
-                            "news3":"",
+                            "news1": "Results",
+                            "news2": "Admit Card",
+                            "news3":"Registration & Application Form",
                             "news4":"",
-                            "news5":"",
-                            "news6":"",
-                            "news7":"",
+                            "news5":"GATE 2021 Eligibility Criteria",
+                            "news6":"Exam Pattern & Syllabus",
+                            "news7":"Graduate Aptitude Test in Engineering (GATE)",
                             "news8":"",
-                            "news9":"",
-                            "news10":""
+                            "news9":"JEE (Advanced) Answer Key",
+                            "news10":"JEE (Advanced) Admit Card",
+                            "news11": "JEE (Advanced) Contact Details",
+                            "news12": "JEE (Advanced) Result"
                         }
                     ]
                 }
             ]
         }
-    ]
 }
