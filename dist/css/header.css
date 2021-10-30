@@ -1269,4 +1269,213 @@ a {
 .sectionSixFourCard > div > div > p {
   margin-top: 15px;
 }
+
+.sectionSport {
+  width: 100%;
+}
+
+.sectionSportUpper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionSportUpper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+}
+
+.sectionSportUpper > div:nth-child(1) {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.sectionSportUpper > div:nth-child(2) > p {
+  margin-right: 15px;
+}
+
+.sectionSportUpper > div:nth-child(2) > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.sectionSportLower {
+  width: 100%;
+  padding: 2% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionSportLowerLeft {
+  width: 65%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 1px dotted gray;
+  padding: 2%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionSportLowerLeftUpper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionSportLowerLeftUpper > div:nth-child(1) {
+  padding: 2%;
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+}
+
+.sectionSportLowerLeftUpper > div:nth-child(1) > p {
+  padding-top: 200px;
+}
+
+.sectionSportLowerLeftUpper > div:nth-child(2) {
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.sectionSportLowerLeftUpper > div:nth-child(2) > div > p {
+  margin-top: 15px;
+  padding: 2%;
+  border-bottom: 1px dotted gray;
+}
+
+.sectionSportLowerLeftUpperLeft {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-87840,msid-87323724,width-600,resizemode-4/87323724.jpg");
+}
+
+.sectionSportLowerLeftLower > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 22px;
+}
+
+.sectionSportLowerLeftLower > div > div {
+  width: 22%;
+}
+
+.sectionSportLowerLeftLower > div > div > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sectionSportLowerRight {
+  width: 35%;
+  padding: 2%;
+}
+
+.sectionSportLowerRight > div > div {
+  margin-top: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionSportLowerRight > div > div > img {
+  border-radius: 10px;
+}
+
+.sectionSportLowerRight > div > div > p {
+  margin-left: 22px;
+}
+
+.sectionSevenTwo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3%;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+.sectionSevenTwo > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.sectionSevenTwo > p {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.sectionSevenThree {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2%;
+  margin-top: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sectionSevenThree > img {
+  margin-right: 50px;
+}
+
+.sectionSevenFourCard {
+  width: 100%;
+}
+
+.sectionSevenFourCard > div {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.sectionSevenFourCard > div > div {
+  width: 12%;
+  margin-right: 15px;
+}
+
+.sectionSevenFourCard > div > div > img {
+  width: 100%;
+}
+
+.sectionSevenFive {
+  border-bottom: 1px dotted gray;
+}
+
+.sectionSevenEightBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-57067,msid-87324008,width-600,resizemode-4/87324008.jpg");
+}
+
+.sectionSevenEight {
+  padding: 3%;
+  margin-top: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
 /*# sourceMappingURL=header.css.map */

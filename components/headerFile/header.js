@@ -349,5 +349,190 @@
         container.append(newDiv)
     })
     mainContainer.append(container)
-})()
+})();
 
+// Section Seven
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/sportsSectionOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSportLowerLeftUpperRight')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/sportsSectionTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSportLowerLeftLower')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/sportsSectionThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSportLowerRight')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSevenFour(){
+    let data = await fetch('http://localhost:3000/shoppingDestination')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSevenFourCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();
+
+(async function sectionSevenFiveOne(){
+    let data = await fetch('http://localhost:3000/sectionTechOne')
+    data = await data.json()
+    // console.log(data);
+    var container = document.createElement('div')
+    container.classList.add('sectionOneHeadlineRightContainer')
+    var mainContainer = document.querySelector('.sectionSevenFiveOne')
+    data.forEach(function(ele){
+        var newA = document.createElement('p')
+        newA.classList.add("sectionOneHeadlineRightCard")
+        newA.innerText = "ߋ"+"   "+ele.title.slice(0,52)+"..."
+        container.append(newA)
+    })
+    mainContainer.append(container)
+})();
+
+
+(async function sectionSevenFiveTwo(){
+    let data = await fetch('http://localhost:3000/sectionTechTwo')
+    data = await data.json()
+    // console.log(data);
+    var container = document.createElement('div')
+    container.classList.add('FiveCityLowerLowerContainer')
+    var mainContainer = document.querySelector('.sectionSevenFiveTwo')
+    data.forEach(function(ele){
+        var newA = document.createElement('p')
+        // newA.classList.add("sectionOneHeadlineRightCard")
+        newA.innerText = ele.title
+        container.append(newA)
+    })
+    mainContainer.append(container)
+})();
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/sectionBusinessOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSevenEightOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/sectionBusinessTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSevenEightTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        // newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/sectionBusinessThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSevenEightThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();

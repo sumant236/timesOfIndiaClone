@@ -945,3 +945,172 @@ a{
         }
     }
 }
+
+// Section Seven 
+.sectionSport{
+    width: 100%;
+    // display: flex;
+    // justify-content: space-between;
+}
+.sectionSportUpper{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+
+    &>div{
+        display: flex;
+        font-weight: 500;
+    }
+    &>div:nth-child(1){
+        font-size:23px;
+        font-weight: 600;
+        
+    }
+
+    &>div:nth-child(2){
+        &>p{
+            margin-right: 15px;
+        }
+
+        &>p:nth-child(1){
+            color: $redColor;
+            font-weight:600;
+        }
+    }
+}
+.sectionSportLower{
+    width: 100%;
+    padding:2% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionSportLowerLeft{
+    width: 65%;
+    display: flex;
+    margin-right: 1px dotted gray;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sectionSportLowerLeftUpper{
+    display: flex;
+    justify-content: space-between;
+    
+    // border: 1px solid red;
+    &>div:nth-child(1){
+        padding: 2%;
+        font-size: 23px;
+        font-weight: 600;
+        
+        color: white;
+
+        &>p{
+            padding-top: 200px;
+        }
+    }
+    &>div:nth-child(2){
+        font-weight: 500;
+        margin-left: 20px;
+        &>div>p{
+            margin-top: 15px;
+            padding: 2%;
+
+            border-bottom: 1px dotted gray;
+        }
+    }
+}
+.sectionSportLowerLeftUpperLeft{
+    background-image: url('https://static.toiimg.com/thumb/imgsize-87840,msid-87323724,width-600,resizemode-4/87323724.jpg');
+
+}
+.sectionSportLowerLeftUpperRight{
+
+}
+.sectionSportLowerLeftLower>div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    &>div{
+        width:22%;
+
+        &>img{
+            width:100%;
+            border-radius: 10px;
+        }
+    }
+
+}
+.sectionSportLowerRight{
+    width: 35%;
+    padding: 2%;
+
+    &>div>div{
+        margin-top: 22px;
+        display: flex;
+        &>img{
+            border-radius: 10px;
+        }
+        &>p{
+            margin-left: 22px;
+        }
+        
+    }
+}
+.sectionSevenTwo{
+    display: flex;
+    padding: 3%;
+    border-top:1px dotted gray;
+    border-bottom:1px dotted gray;
+    &>p:nth-child(1){
+        color: $redColor;
+        font-weight: 600;
+    }
+    &>p{
+        margin-right: 15px;
+        font-weight: 500;
+    }
+}
+
+.sectionSevenThree{
+    display: flex;
+    padding: 2%;
+    margin-top: 2px;
+    border-top:1px dotted gray;
+    border-bottom:1px dotted gray;
+    justify-content: center;
+
+    &>img{
+        margin-right: 50px;
+    }
+}
+
+.sectionSevenFourCard{
+    width:100%;
+    &>div{
+        justify-content:space-between;
+        width:100%;
+    }
+    &>div>div{
+        width:12%;
+        // border: 1px solid red;
+        margin-right: 15px;
+        &>img{
+            width:100%;
+        }
+    }
+}
+.sectionSevenFive{
+    border-bottom: 1px dotted gray;
+}
+.sectionSevenEightBackground{
+    background-image: url('https://static.toiimg.com/thumb/imgsize-57067,msid-87324008,width-600,resizemode-4/87324008.jpg')
+}
+
+.sectionSevenEight{
+    padding: 3%;
+    margin-top:2px;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
