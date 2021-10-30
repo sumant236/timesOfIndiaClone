@@ -178,6 +178,10 @@ a {
   width: 93%;
   margin-bottom: 15px;
   border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .sectionOneHeadlineLeftContainer {
@@ -993,5 +997,276 @@ a {
 .lifestyleSecond > p:nth-child(1) {
   color: #E21B22;
   font-weight: 600;
+}
+
+.sectionSixOne {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 4% 0;
+}
+
+.sectionSixOneUpper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sectionSixOneUpper > div:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.sectionSixOneUpper > div:nth-child(1) > p:nth-child(1) {
+  margin-right: 15px;
+}
+
+.sectionSixOneUpper > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+}
+
+.sectionSixOneUpper > div:nth-child(2) > p {
+  margin-right: 15px;
+}
+
+.sectionSixOneLower {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.sectionSixOneLower > div {
+  width: 22%;
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.sectionSixOneLower > div > p {
+  font-size: 23px;
+  color: white;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.sectionSixOneLower > div > p:nth-child(1) {
+  margin-top: 350px;
+}
+
+.sectionSixOneLower > div:nth-child(1) {
+  background-image: url("https://static.toiimg.com/photo/msid-87277842.cms");
+}
+
+.sectionSixOneLower > div:nth-child(2) {
+  background-image: url("https://static.toiimg.com/photo/msid-87303460.cms");
+}
+
+.sectionSixOneLower > div:nth-child(3) {
+  background-image: url("https://static.toiimg.com/photo/msid-87304136.cms");
+}
+
+.sectionSixOneLower > div:nth-child(4) {
+  background-image: url("https://static.toiimg.com/photo/msid-87272748.cms");
+}
+
+.sectionSixTwo {
+  color: white;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: #050505;
+  border-top: 1px solid #9e0606;
+}
+
+.sectionSixTwoLower {
+  width: 100%;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionSixTwoLowerOne {
+  width: 40%;
+  background-image: url("https://static.toiimg.com/thumb/imgsize-46296,msid-87317626,width-700,resizemode-4/87317626.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  height: 280px;
+  border-radius: 10px;
+}
+
+.sectionSixTwoLowerOne > p {
+  font-size: 23px;
+  color: white;
+  font-weight: 600;
+}
+
+.sectionSixTwoLowerOne > p:nth-child(1) {
+  margin-top: 220px;
+  margin-left: 20px;
+}
+
+.sectionSixTwoLowerTwo {
+  width: 60%;
+  margin-left: 45px;
+}
+
+.sectionSixTwoLowerTwo > div {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.sectionSixTwoLowerTwo > div > div > img {
+  border-radius: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sectionSixTwoLowerTwo > div > div > p {
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.sectionSixThree {
+  padding: 3%;
+  border-bottom: 1px dotted gray;
+}
+
+.sectionSixThree > div {
+  margin-top: 25px;
+}
+
+.sectionSixThree > div:nth-child(1), .sectionSixThree > div:nth-child(2) {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.sectionSixThree > div:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sectionSixThreeCard > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionSixThreeCard > div > div {
+  padding: 2%;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  font-weight: 500;
+}
+
+.sectionSixThreeCard > div > div > img {
+  border-radius: 10px;
+}
+
+.sectionSixThreeCard > div > div > p {
+  margin-top: 15px;
+}
+
+.sectionSixThreeCard > div > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+.sectionSixThreeCard > div > div > div > p:nth-child(1) {
+  color: #E21B22;
+  font-weight: 600;
+}
+
+.sectionSixFour {
+  padding: 3%;
+  margin-top: 1px dotted gray;
+  margin-bottom: 1px dotted gray;
+}
+
+.sectionSixFour > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionSixFour > div > p {
+  font-size: 23px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.sectionSixFourCard > div {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 500;
+  width: 100%;
+}
+
+.sectionSixFourCard > div > div {
+  width: 15%;
+}
+
+.sectionSixFourCard > div > div > img {
+  border-radius: 10px;
+}
+
+.sectionSixFourCard > div > div > p {
+  margin-top: 15px;
 }
 /*# sourceMappingURL=header.css.map */

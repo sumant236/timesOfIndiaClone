@@ -22,7 +22,7 @@
     var container = document.createElement('div')
     container.classList.add('sectionOneHeadlineLeftContainer')
     var mainContainer = document.querySelector('.sectionOneHeadlineLeft')
-    console.log(data);
+    // console.log(data);
     data.forEach(function(ele){
         var newDiv = document.createElement('div')
         newDiv.classList.add('sectionOneHeadlineLeftCard')
@@ -249,7 +249,7 @@
 (async function lifestyle(){
     let data = await fetch('http://localhost:3000/lifestyle')
     data = await data.json()
-    console.log(data);
+    // console.log(data);
     let mainContainer = document.querySelector('.lifestyle')
     let container = document.createElement('div')
     data.forEach(function(ele){
@@ -273,3 +273,81 @@
     })
     mainContainer.append(container)
 })();
+
+(async function sectionSixTwoLowerTwo(){
+    let data = await fetch('http://localhost:3000/sectionSixTwoLowerTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSixTwoLowerTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newD = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newD.append(newImg)
+        newD.append(newP)
+
+        container.appendChild(newD)
+    })
+
+    mainContainer.append(container)
+
+})();
+
+(async function sectionSixThreeCard(){
+    let data = await fetch('http://localhost:3000/sectionSixThreeCard')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSixThreeCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP1 = document.createElement('p')
+        let newP2 = document.createElement('p')
+        let newP3 = document.createElement('p')
+        let innerDiv = document.createElement('div')
+        newImg.src = ele.imageURL
+        newP1.innerText = ele.title
+        newP2.innerText = `UPTO ${ele.discount}% OFF`
+        newP3.innerText = `${ele.dealCount}+ Deals`
+        innerDiv.append(newP2)
+        innerDiv.append(newP3)
+
+        newDiv.append(newImg)
+        newDiv.append(newP1)
+        newDiv.append(innerDiv)
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+(async function sectionSixFourCard(){
+    let data = await fetch('http://localhost:3000/sectionSixFourCard')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.sectionSixFourCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})()
+

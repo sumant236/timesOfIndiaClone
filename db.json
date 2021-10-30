@@ -432,9 +432,262 @@
         "titleOne":"We Can’t Get Over Kourtney’s Straight Hair",
         "titleTwo":"Creator Neha Nagar Puts Up Content On Finance & Taxation"
       }
+    ],
+    "sectionSixTwoLowerTwo":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-46296,msid-87317626,width-200,resizemode-4/87317626.jpg",
+        "title":"Why this father is happy to lose this swimming race"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-49072,msid-87324651,width-200,resizemode-4/87324651.jpg",
+        "title":"Google doodle: Tributes paid to founder of judo Kano Jigoro"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-73450,msid-87301062,width-200,resizemode-4/87301062.jpg",
+        "title":"SRK's manager Pooja's old post praising Aryan goes viral"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-3215263,msid-87287691,width-200,resizemode-4/87287691.jpg",
+        "title":"Smog season: 5 ways surrounding states are behind Delhi’s winter pollution"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-49292,msid-87314784,width-200,resizemode-4/87314784.jpg",
+        "title":"'Fake' caste certificate row: Sameer Wankhede's family refutes Nawab Malik's allegations, says"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-76692,msid-87304546,width-200,resizemode-4/87304546.jpg",
+        "title":"Old pictures of Aryan Khan and Ananya Panday go viral"
+      }
+    ],
+    "sectionSixThreeCard":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-36296,msid-85267115,width-250,resizemode-4/85267115.jpg",
+        "title":"Headphones & Speakers",
+        "discount":"80",
+        "dealCount":"140"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-27168,msid-86896633,width-250,resizemode-4/86896633.jpg",
+        "title":"Budget Laptops",
+        "discount":"40",
+        "dealCount":"130"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-38178,msid-85646084,width-250,resizemode-4/85646084.jpg",
+        "title":"Beauty & Grooming",
+        "discount":"45",
+        "dealCount":"160"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-46356,msid-86896089,width-250,resizemode-4/86896089.jpg",
+        "title":"Budget LED TVs",
+        "discount":"65",
+        "dealCount":"130"
+      }
+    ],
+    "sectionSixFourCard":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87300854,width-200,resizemode-4/87300854.jpg",
+        "title":"Large capacity electric kettles for boiling water in pantries and common"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87300690,width-200,resizemode-4/87300690.jpg",
+        "title":"Cricket Bats Online: Splendid Options From GM, SS, SG, DSC, Wolfer, And Many Others"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87279999,width-200,resizemode-4/87279999.jpg",
+        "title":"Bluetooth microphones: Affordable options that you can buy online"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87274534,width-200,resizemode-4/87274534.jpg",
+        "title":"Gaming laptops under 60,000: Top options for a rich gaming experience"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87280824,width-200,resizemode-4/87280824.jpg",
+        "title":"Popular Room Heaters 2021: Top Choices From Havells, Bajaj, Crompton"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-123456,msid-87274719,width-200,resizemode-4/87274719.jpg",
+        "title":"Winter care essentials: Up to 80% off on lotions, shampoos, straighteners,"
+      }
+    ],
+
+    "sportsSectionOne":[
+      {
+        "title":"From here on we have to lift our level: Namibia skipp"
+      },
+      {
+        "title":"Moenchengladbach thrash Bayern 5-0"
+      },
+      {
+        "title":"Juventus slip to last-gasp defeat at home to Sassuolo"
+      },
+      {
+        "title":"Vallecano hand Barcelona second successive defeat"
+      },
+      {
+        "title":"Chopra, Dahiya among 11 recommended for Khel Ratna"
+      }
+    ],
+    "sportsSectionTwo":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-87269432,msid-87269432,width-600,resizemode-4/87269432.jpg",
+        "title":"Sachin Tendulkar, Virender Sehwag back Mohammed Shami amid online abuse after India-"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-87254210,msid-87254210,width-600,resizemode-4/87254210.jpg",
+        "title":"Would you drop Rohit Sharma from T20Is, asks Virat Kohli"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-59674,msid-87324171,width-600,resizemode-4/87324171.jpg",
+        "title":"Australia's batters face wily Sri Lanka spinners in tricky clash"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-109610,msid-87317168,width-600,resizemode-4/87317168.jpg",
+        "title":"T20 WC: Namibia extend impressive run with win over Scotland"
+      }
+    ],
+    "sportsSectionThree":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-65236,msid-87312194,width-100,resizemode-4/87312194.jpg",
+        "title":"T20 WC: Clinical England thrash Bangladesh by 8 wickets"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-30294,msid-87316008,width-100,resizemode-4/87316008.jpg",
+        "title":"Hardik fit for NZ game, bowls in nets for the first time in months"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-36058,msid-87316280,width-100,resizemode-4/87316280.jpg",
+        "title":"French Open: Sindhu, Lakshya win, Saina retires midway"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-88206,msid-87301953,width-100,resizemode-4/87301953.jpg",
+        "title":"Why India vs New Zealand could be a do or die clash for both teams"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-27160,msid-87310910,width-100,resizemode-4/87310910.jpg",
+        "title":"Ganguly to relinquish ATKMB role to avoid conflict of interest"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-59914,msid-87316761,width-100,resizemode-4/87316761.jpg",
+        "title":"Football's five-substitute option to be made permanent"
+      }
+    ],
+    "shoppingDestination":[
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-71090,msid-86835565,width-200,resizemode-4/86835565.jpg",
+        "title":"Laptops under 30,000: Highly Rated by Experts"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-175014,msid-87302357,width-200,resizemode-4/87302357.jpg",
+        "title":"Cardio workout essentials that you must have at"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-47202,msid-87300690,width-200,resizemode-4/87300690.jpg",
+        "title":"Cricket Bats Online: Splendid Options From GM,"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-22658,msid-86634592,width-200,resizemode-4/86634592.jpg",
+        "title":"50-Inch Smart LED TVs: Bigger Entertainment"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-52860,msid-87312324,width-200,resizemode-4/87312324.jpg",
+        "title":"Diwali gifts for employees: Best gifting options to"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-29226,msid-87308389,width-200,resizemode-4/87308389.jpg",
+        "title":"Kadha green tea: Take care of your health during"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-55148,msid-87300854,width-200,resizemode-4/87300854.jpg",
+        "title":"Kadha green tea: Take care of your health during"
+      },
+      {
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-33240,msid-87302236,width-200,resizemode-4/87302236.jpg",
+        "title":"Kadha green tea: Take care of your health during"
+      }
+    ],
+    "sectionTechOne":[
+      {
+        "title":"​Amazon Grand Finale Days: Geysers with remote contro"
+      },
+      {
+        "title":"Amazon Diwali sale: Blockbuster deals on smart TVs fro"
+      },
+      {
+        "title":"Age of Empires 4 to launch today: 10 things you should "
+      },
+      {
+        "title":"Some OnePlus 8 users are not able to use Google Pay "
+      },
+      {
+        "title":"How Amazon has averted 'Apple pains' hurting Facebook"
+      }
+    ],
+    "sectionTechTwo":[
+      {
+        "title":"Vivo X70 Pro Plus review: Raises the ba"
+      },
+      {
+        "title":"Realme 8i review: Pocket-friendly gaming smartphone"
+      },
+      {
+        "title":"Apple iPhone 13 Review: The one that most people will buy"
+      },
+      {
+        "title":"Samsung Galaxy M52 5G review: Smart design, good"
+      }
+    ],
+    "sectionBusinessOne":[
+      {
+        "title":"RBI: All micro loans must be collateral-free"
+      },
+      {
+        "title":"Kamath to be first NaBFID chairman"
+      },
+      {
+        "title":"Maruti Q2 net down 66% on rising costs"
+      },
+      {
+        "title":"US stocks end lower on Wall Street, easing back from rec"
+      },
+      {
+        "title":"Aluminium makers send SOS to PMO over coal shortag"
+      }
+    ],
+    "sectionBusinessTwo":[
+      {
+        "title":"Indians paid Rs 9,700 crore in hidden forex fees"
+      },
+      {
+        "title":"Reliance Brands JV bags rights of Lee Cooper"
+      },
+      {
+        "title":"Unexcited by low EV volumes: Maruti"
+      },
+      {
+        "title":"Paytm IPO opens on 8th, Swiss Re boards non-life"
+      }
+    ],
+    "sectionBusinessThree":[
+      {
+        "title":"Equity indices open in green, Sensex up by 149 points",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-87305986,msid-87305986,width-100,resizemode-4/87305986.jpg"
+      },
+      {
+        "title":"Time for India to embark on new trajectory of sustainable and inclusive growth, says RBI article",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-87133956,msid-87133956,width-100,resizemode-4/87133956.jpg"
+      },
+      {
+        "title":"Future asks Delhi court to quash Singapore panel's block on asset sale",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-66160,msid-87316010,width-100,resizemode-4/87316010.jpg"
+      },
+      {
+        "title":"Air India, AI Express say 'ta-ta' to credit sales",
+        "imageURL":"https://static.toiimg.com/thumb/imgsize-62260,msid-87315436,width-100,resizemode-4/87315436.jpg"
+      }
     ]
-
-
+    
 
     
 }
