@@ -1155,7 +1155,7 @@ a{
 }
 .eightThree{
     width: 100%;
-    padding: 3%;
+    padding: 3% 0;
     margin-top: 2px;
     margin-bottom: 2px;
     border-top: 1px dotted gray;
@@ -1164,11 +1164,115 @@ a{
 .eightThreeCard>div{
     width: 100%;
     &>div{
-        width:11.5%;
+        width:12%;
 
         &>img{
             width:90%;
-            height:150px;
+            height:100px;
+            object-fit: cover;
+        }
+    }
+}
+
+// section Nine
+.nineOne{
+    padding: 3%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+    width: 100%;
+}
+.nineOneBackground{
+    background-image: url('https://static.toiimg.com/thumb/imgsize-85484,msid-87391368,width-600,resizemode-4/87391368.jpg');
+}
+.nineOneThree{
+    // border: 1px solid red;
+    &>div{
+        width:100%;
+    }
+    &>div>div{
+        // width:200px;
+
+        &>img{
+            height: 70px;
+            width:27%;
+            object-fit: cover;
+            image-orient: portrait;
+        }
+    }
+}
+.nineTwoThree{
+    // border: 1px solid red;
+    &>div{
+        width:100%;
+    }
+    &>div>div{
+        // width:200px;
+
+        &>img{
+            height: 70px;
+            width:27%;
+            object-fit: cover;
+            image-orient: portrait;
+        }
+    }
+}
+.nineThreeThree{
+    // border: 1px solid red;
+    &>div{
+        width:100%;
+    }
+    &>div>div{
+        
+        &>img{
+            height: 70px;
+            width:100px;
+            // width:27%;
+            object-fit: cover;
+            // image-orient: portrait;
+        }
+    }
+}
+.nineTwo{
+    padding: 3% 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+}
+.nineThreeTwo{
+    &>div>div{
+        &>img{
+            height: 120px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+.nineTwoBackground{
+    background-image: url('https://static.toiimg.com/thumb/imgsize-202318,msid-87388614,width-600,resizemode-4/87388614.jpg');
+}
+.nineThree{
+    padding: 3% 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-top: 1px dotted gray;
+    border-bottom: 1px dotted gray;
+}
+.nineThreeBackground{
+    background-image: url('	https://static.toiimg.com/thumb/imgsize-28158,msid-87391489,width-600,resizemode-4/87391489.jpg');
+}
+
+.nineFourCard{
+
+    &>div>div{
+        width:15%;
+        padding:1%;
+
+        &>img{
+            width:100%;
+            height:100px;
             object-fit: cover;
         }
     }

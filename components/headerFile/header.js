@@ -667,3 +667,230 @@
     })
     mainContainer.append(container)
 })();
+
+//Section Nine
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/travelOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineOneOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/travelTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineOneTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/travelThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineOneThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+
+
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/recipeOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineTwoOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/recipeTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineTwoTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/recipeThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineTwoThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+
+
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/healthOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineThreeOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/healthTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineThreeTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/healthThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineThreeThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+(async function sectionSixFourCard(){
+    let data = await fetch('http://localhost:3000/television')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.nineFourCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();

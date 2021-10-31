@@ -1530,7 +1530,7 @@ a {
 
 .eightThree {
   width: 100%;
-  padding: 3%;
+  padding: 3% 0;
   margin-top: 2px;
   margin-bottom: 2px;
   border-top: 1px dotted gray;
@@ -1542,12 +1542,104 @@ a {
 }
 
 .eightThreeCard > div > div {
-  width: 11.5%;
+  width: 12%;
 }
 
 .eightThreeCard > div > div > img {
   width: 90%;
-  height: 150px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nineOne {
+  padding: 3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  width: 100%;
+}
+
+.nineOneBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-85484,msid-87391368,width-600,resizemode-4/87391368.jpg");
+}
+
+.nineOneThree > div {
+  width: 100%;
+}
+
+.nineOneThree > div > div > img {
+  height: 70px;
+  width: 27%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  image-orient: portrait;
+}
+
+.nineTwoThree > div {
+  width: 100%;
+}
+
+.nineTwoThree > div > div > img {
+  height: 70px;
+  width: 27%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  image-orient: portrait;
+}
+
+.nineThreeThree > div {
+  width: 100%;
+}
+
+.nineThreeThree > div > div > img {
+  height: 70px;
+  width: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.nineTwo {
+  padding: 3% 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+.nineThreeTwo > div > div > img {
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.nineTwoBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-202318,msid-87388614,width-600,resizemode-4/87388614.jpg");
+}
+
+.nineThree {
+  padding: 3% 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+.nineThreeBackground {
+  background-image: url("	https://static.toiimg.com/thumb/imgsize-28158,msid-87391489,width-600,resizemode-4/87391489.jpg");
+}
+
+.nineFourCard > div > div {
+  width: 15%;
+  padding: 1%;
+}
+
+.nineFourCard > div > div > img {
+  width: 100%;
+  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
 }
