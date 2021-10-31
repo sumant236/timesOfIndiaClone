@@ -1318,7 +1318,10 @@ a {
         object-position: center;
     }
 }
-
+.cartoonCard{
+    border-bottom:2px solid black; 
+    padding-bottom: 5%;
+}
 .cartoonCard>div>div{
 
     &>img{
@@ -1326,5 +1329,61 @@ a {
         width: 180px;
         object-fit:cover;
         object-position: center;
+    }
+}
+
+//Footer
+
+.footer{
+    display: flex;
+    width: 100%;
+}
+.footerLeft{
+    width: 30%;
+}
+.footerRight{
+    width: 70%;
+}
+.footerLeftUpper{
+
+    &>div:nth-child(3){
+        &>p{
+            font-size: 23px;
+            font-weight:600;
+        }
+    }
+    &>div:nth-child(3)>div{
+
+        
+        display: flex;
+        justify-content: flex-start;
+        padding: 3%;
+        &>div{
+            padding: 2%;
+            border-radius:50%;
+            border:1px solid black;
+            margin-right: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+._1V5yl{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2%;
+    &>a{
+        color: #050505;
+        font-weight: 500;
+        padding: 2%;
+    }
+}
+.footerRight{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &>div{
+
     }
 }

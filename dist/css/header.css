@@ -1723,6 +1723,11 @@ a {
      object-position: center;
 }
 
+.cartoonCard {
+  border-bottom: 2px solid black;
+  padding-bottom: 5%;
+}
+
 .cartoonCard > div > div > img {
   height: 100px;
   width: 180px;
@@ -1730,5 +1735,72 @@ a {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.footerLeft {
+  width: 30%;
+}
+
+.footerRight {
+  width: 70%;
+}
+
+.footerLeftUpper > div:nth-child(3) > p {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.footerLeftUpper > div:nth-child(3) > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 3%;
+}
+
+.footerLeftUpper > div:nth-child(3) > div > div {
+  padding: 2%;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+._1V5yl {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 2%;
+}
+
+._1V5yl > a {
+  color: #050505;
+  font-weight: 500;
+  padding: 2%;
+}
+
+.footerRight {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 /*# sourceMappingURL=header.css.map */
