@@ -894,3 +894,313 @@
     })
     mainContainer.append(container)
 })();
+
+// Section Ten
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/autoOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.autoOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/autoTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.autoTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/autoThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.autoThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/educationOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.educationOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/educationTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.educationTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/educationThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.educationThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSixFourCard(){
+    let data = await fetch('http://localhost:3000/mediaWire')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.mediawireCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();
+
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/opinionOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.opinionOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/opinionTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.opinionTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/opinionThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.opinionThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/evokeOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.evokeOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/evokeTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.evokeTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/evokeThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.evokeThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSixFourCard(){
+    let data = await fetch('http://localhost:3000/cartoons')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.cartoonCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();
+

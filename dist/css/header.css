@@ -67,7 +67,7 @@ a {
 .headerTopRight > button {
   width: 142px;
   height: 25px;
-  background-color: #E21B22;
+  background-color: #e21b22;
   border-radius: 5px;
   border: none;
   color: white;
@@ -91,7 +91,8 @@ a {
   color: #53524f;
 }
 
-.headerTopRight > div, .headerTopRight p {
+.headerTopRight > div,
+.headerTopRight p {
   margin: 5px;
 }
 
@@ -122,14 +123,14 @@ a {
 }
 
 .headerBottomContainer > a {
-  color: #1A1A1A;
+  color: #1a1a1a;
   font-weight: 500;
-  -webkit-transition: .1s all ease-in-out;
-  transition: .1s all ease-in-out;
+  -webkit-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
 }
 
 .headerBottomContainer > a:hover {
-  color: #1A1A1A;
+  color: #1a1a1a;
   font-weight: 600;
 }
 
@@ -146,7 +147,7 @@ a {
 }
 
 .headerBottomSecond > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -218,8 +219,8 @@ a {
 
 .sectionOneHeadlineLeftCard > p {
   cursor: pointer;
-  -webkit-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .sectionOneHeadlineLeftCard > p:hover {
@@ -253,8 +254,8 @@ a {
 
 .sectionOneHeadlineMiddleCard > p {
   cursor: pointer;
-  -webkit-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .sectionOneHeadlineMiddleCard > p:hover {
@@ -304,7 +305,7 @@ a {
 }
 
 .sectionOneTrending > div {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -381,7 +382,7 @@ a {
 }
 
 .sectionTwoBottomCard > p:nth-child(2) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -401,7 +402,7 @@ a {
   margin-right: 10px;
   height: 60px;
   width: 60px;
-  background-color: #E21B22;
+  background-color: #e21b22;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -669,7 +670,7 @@ a {
   font-weight: 600;
   height: 25px;
   width: 13%;
-  background-color: #E21B22;
+  background-color: #e21b22;
   border-radius: 10px;
   color: #fff;
   -webkit-box-pack: center;
@@ -716,7 +717,7 @@ a {
 }
 
 .sectionFourContainerThird > div:nth-child(1) > div:nth-child(2) > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -752,7 +753,7 @@ a {
 }
 
 .sectionFourContainerForth > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -870,7 +871,7 @@ a {
 }
 
 .indiaFightCovidSecond > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -882,7 +883,7 @@ a {
   width: 100%;
   padding: 5%;
   margin-bottom: 5px;
-  background-color: #FFF5F6;
+  background-color: #fff5f6;
   border-bottom: 1px dotted gray;
 }
 
@@ -995,7 +996,7 @@ a {
 }
 
 .lifestyleSecond > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -1168,7 +1169,8 @@ a {
   margin-top: 25px;
 }
 
-.sectionSixThree > div:nth-child(1), .sectionSixThree > div:nth-child(2) {
+.sectionSixThree > div:nth-child(1),
+.sectionSixThree > div:nth-child(2) {
   font-size: 23px;
   font-weight: 600;
 }
@@ -1218,7 +1220,7 @@ a {
 }
 
 .sectionSixThreeCard > div > div > div > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -1301,7 +1303,7 @@ a {
 }
 
 .sectionSportUpper > div:nth-child(2) > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -1416,7 +1418,7 @@ a {
 }
 
 .sectionSevenTwo > p:nth-child(1) {
-  color: #E21B22;
+  color: #e21b22;
   font-weight: 600;
 }
 
@@ -1642,5 +1644,91 @@ a {
   height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.auto {
+  padding: 3% 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  font-weight: 500;
+}
+
+.autoBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-1371239,msid-87338739,width-600,resizemode-4/87338739.jpg");
+}
+
+.educationBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-84548,msid-87398061,width-600,resizemode-4/87398061.jpg");
+}
+
+.education {
+  padding: 3% 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  font-weight: 500;
+}
+
+.mediawireCard > div > div > img {
+  height: 100px;
+  width: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.opinionBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-60968,msid-87416343,width-600,resizemode-4/87416343.jpg");
+}
+
+.opinion {
+  padding: 3% 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  font-weight: 500;
+}
+
+.opinionThree > div > div > img {
+  height: 60px;
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.evokeBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-96078,msid-87384052,width-600,resizemode-4/87384052.jpg");
+}
+
+.evoke {
+  padding: 3% 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+  font-weight: 500;
+}
+
+.evokeThree > div > div > img {
+  height: 60px;
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.cartoonCard > div > div > img {
+  height: 100px;
+  width: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 /*# sourceMappingURL=header.css.map */
