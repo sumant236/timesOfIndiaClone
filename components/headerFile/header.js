@@ -536,3 +536,134 @@
 
     mainContainer.append(container)
 })();
+
+// section Eight
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/worldOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.eightOneOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/worldTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.eightOneTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        // newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+(async function sectionSportLowerLeftUpperRight(){
+    let data = await fetch('http://localhost:3000/acrossToiOne')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.eigthTwoOne')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        newP = document.createElement('p')
+        newP.innerText = ele.title
+        container.append(newP)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerLeftLower(){
+    let data = await fetch('http://localhost:3000/acrossToiTwo')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.eigthTwoTwo')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        // newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        // newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+(async function sectionSportLowerRight(){
+    let data = await fetch('http://localhost:3000/acrossToiThree')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.eigthTwoThree')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+
+    mainContainer.append(container)
+})();
+
+
+(async function eightThreeCard(){
+    let data = await fetch('http://localhost:3000/sponserStory')
+    data = await data.json()
+    // console.log(data);
+    let mainContainer = document.querySelector('.eightThreeCard')
+    let container = document.createElement('div')
+
+    data.forEach(function(ele){
+        let newDiv = document.createElement('div')
+        let newImg = document.createElement('img')
+        let newP = document.createElement('p')
+        newImg.src = ele.imageURL
+        newP.innerText = ele.title
+
+        newDiv.append(newImg)
+        newDiv.append(newP)
+
+        container.append(newDiv)
+    })
+    mainContainer.append(container)
+})();

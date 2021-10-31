@@ -1478,4 +1478,77 @@ a {
   margin-bottom: 2px;
   font-weight: 500;
 }
+
+.sectionSportLowerLeftLower > div > div {
+  padding: 2%;
+  border-right: 1px dotted gray;
+}
+
+.sectionSportLowerLeftUpperLeft {
+  border-radius: 10px;
+}
+
+.sectionSportUpper > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sectionSportUpper > div > p {
+  margin-right: 15px;
+}
+
+.eightOne {
+  padding: 3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+.eightOneBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-37984,msid-87415477,width-600,resizemode-4/87415477.jpg");
+}
+
+.eigthTwoBackground {
+  background-image: url("https://static.toiimg.com/thumb/imgsize-317977,msid-87328514,width-600,resizemode-4/87328514.jpg");
+}
+
+.eigthTwo {
+  padding: 3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+.eightThree {
+  width: 100%;
+  padding: 3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-top: 1px dotted gray;
+  border-bottom: 1px dotted gray;
+}
+
+.eightThreeCard > div {
+  width: 100%;
+}
+
+.eightThreeCard > div > div {
+  width: 11.5%;
+}
+
+.eightThreeCard > div > div > img {
+  width: 90%;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=header.css.map */
