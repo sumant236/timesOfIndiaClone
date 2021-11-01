@@ -276,7 +276,6 @@ a {
 .metroNewsCard>div:nth-child(2){
   height: 200px;
   width: 100%;
-  background: linear-gradient(to top, #bdb8b8, #fff);
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 24px;
@@ -352,4 +351,108 @@ a {
 .eventSection>div>p{
   padding-top: 20%;
   font-weight: 500;
+}
+
+.cityNews{
+  padding: 5% 0;
+}
+
+.cityNews>div{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+  grid-gap: 10px;
+}
+
+.cityNewsCard{
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  padding: 2%;
+
+}
+.cityNewsCard>p:nth-child(1){
+
+}
+.cityNewsCard>div:nth-child(1){
+  font-size: 26px;
+  font-weight: 600;
+  color: rgb(224, 58, 58);
+}
+.cityNewsCard>div:nth-child(2)>p{
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+
+
+/* footer */
+
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.footerLeft {
+  width: 30%;
+}
+
+.footerRight {
+  width: 70%;
+}
+
+.footerLeftUpper > div:nth-child(3) > p {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.footerLeftUpper > div:nth-child(3) > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 3%;
+}
+
+.footerLeftUpper > div:nth-child(3) > div > div {
+  padding: 2%;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+._1V5yl {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (1fr)[2]; */
+      grid-template-columns: repeat(2, 1fr);
+  padding: 2%;
+}
+
+._1V5yl > a {
+  color: #050505;
+  font-weight: 500;
+  padding: 2%;
+}
+
+.footerRight {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: (1fr)[2]; */
+      grid-template-columns: repeat(2, 1fr);
 }
