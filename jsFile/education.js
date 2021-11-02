@@ -4,6 +4,8 @@ window.addEventListener('load', ()=>{
     .catch(err=> console.log(err));
 
     handleList();
+
+    quickLinks();
 })
 
 function handleEduNews() {
@@ -103,4 +105,26 @@ function showList(data) {
         ul.append(li);
     }
     div.append(ul);
+}
+
+function quickLinks() {
+    return fetch('http://localhost:3000/quickLinks')
+    .then(res=>res.json())
+    .then(res => showLinks(res))
+    .catch(err => console.log(err))
+}
+
+const showLinks = (data) =>{
+    const div = document.getElementById('quickLinks')
+    const h3 = document.createElement('h3')
+    h3.textContent = "Quick Links";
+    const hr = document.createElement('hr')
+    const ul = document.createElement('ul');
+    for(let links in data){
+        const li = document.createElement('li');
+        li.textContent = data[links]
+        console.log(data[links])
+        ul.append(li)
+    }
+    div.append(h3, hr, ul)
 }

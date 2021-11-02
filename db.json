@@ -572,5 +572,16 @@
         "list2": "Rajinikanth’s health: Cops deployed outside Kauvery Hospital in Chennai",
         "list3": "Puneeth Rajkumar walked into my clinic before the ‘sudden death’:...",
         "list4": "Mumbai: Picture that’s ‘baki’ will end only when Sameer Wankhede loses"
+    },
+    "quickLinks":{
+        "link1":"GRE Exam",
+        "link2":"TOEFL Exam",
+        "link3":"GMAT Exam",
+        "link4":"CBSE Maths Previous Paper",
+        "link5":"CBSE Science 10th Paper",
+        "link6":"TS Eamcet Exam Date",
+        "link7":"UPSC Interview Schedule",
+        "link8":"Delhi Police Recruitment",
+        "link9":"Education News"
     }
 }

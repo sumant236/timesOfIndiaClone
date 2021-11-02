@@ -284,3 +284,72 @@ i{
     border-bottom: 1px solid #676E7A;
     color: #455A64;
 }
+.fa-plus, #section3 > h5{
+    color: #D50000;
+}
+.fa-plus{
+    padding: 5px;
+    border: none;
+}
+#inner-section{
+    display: flex;
+    width: auto;
+    margin: auto;
+}
+#inner-section > h1{
+    margin: 0;
+}
+h5{
+    margin: auto;
+}
+#section3 > h5, #inner-section{
+    font-family: 'Times New Roman', Times, serif;
+}
+#section3{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #d1d1d1;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 20px;
+}
+#email{
+    text-align: center;
+    margin: 12px 0px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: solid 1px #a5a5a5;
+    background: #fff;
+}
+#subscribe{
+    text-align: center;
+    border: 1px solid #acacac;
+    background: #666;
+    color: #999;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#quickLinks {
+    max-width: 90%;
+    color: #1f1f1f;
+}
+#quickLinks> hr{
+    max-width: 100%;
+    color: #1f1f1f;
+}
+#quickLinks > ul{
+    font-size: 12px;
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+}
+#quickLinks > ul > li{
+    padding: 3px;
+}
+#description{
+    max-width: 100%;
+    padding: 15px;
+    font-size: 15px;
+}
