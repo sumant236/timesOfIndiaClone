@@ -19,11 +19,16 @@ p{
     color: white;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #nav-1 > div{
     display: flex;
-    margin: 0px;
+}
+#nav-1 > div:nth-child(1), #nav-3 > div:nth-child(1){
+    margin-left: 14.7%;
+} 
+#nav-1>div:nth-child(2), #nav-3> div:nth-child(2){
+    margin-right: 14.7%;
 }
 .nav-p, #nav-3 >div >p, #nav-4> p{
     padding-top: 6px;
@@ -73,7 +78,7 @@ i{
 #nav-3{
     background: #D50000;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
 }
 #nav-3 > div{
@@ -92,15 +97,6 @@ i{
     color: #fff;
     padding-top: 5px;
 }
-/* #nav-3, #nav-4{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-#nav-4{
-    margin-top: 25px;
-} */
 #brief{
     color: white;
     background: #666;
@@ -128,7 +124,7 @@ i{
 }
 #nav-4 > p:nth-child(1){
     color: #888;
-    padding: 0px 0px 0px 20%; 
+    padding: 0px 0px 0px 14.7%; 
 }
 #nav-4 > p:nth-child(2){
     color: #000;
@@ -142,6 +138,8 @@ form > h1{
     width: 320px;
     height: 183px;
     grid-area: img;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 #container{
     display: flex;
@@ -151,12 +149,17 @@ form > h1{
 #container > div{
     width: 320px;
     background: #fff;
-    /* height: 500px; */
     display: grid;
     grid-template-areas: "img"
                          "head"
                          "desc"
                          "refer";
+    cursor: pointer;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+#container > div:hover{
+    box-shadow: 0 10px 40px 0 rgb(0 0 0 / 40%);
 }
 #container > div > p{
     font-size: 14px;
