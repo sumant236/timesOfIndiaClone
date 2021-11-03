@@ -108,7 +108,7 @@ a {
   object-fit: contain;
 }
 
-.headerLogo > img {
+.headerLogo > a>img {
   width: 100%;
 }
 
