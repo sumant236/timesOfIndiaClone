@@ -1,126 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Education News: Latest Job Notifications, Admit Cards, Exam Paper Analysis,Results - Times of India</title>
-    <link rel="shortcut icon" href="https://timesofindia.indiatimes.com/icons/toifavicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../cssFile/education.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../cssFile/city.css">
+    <title>THE TIMES OF INDIA</title>
 </head>
 <body>
-    <nav>
-        <div id="nav-1">
-            <div>
-                <select id="lang">
-                    <option value="english">English</option>
-                </select>
-                <p class="nav-p">| EPaper</p>
-                <p class="nav-p">| GadgetsNow</p>
-            </div>
-            <div>
-                <button class="icon"><i id="crown" class="fas fa-crown"></i> Log in & claim your 5 points</button>
-                <a id="signup" href="#">SIGN IN</a>
-                <i class="nav-icon fab fa-twitter fa-sm"></i>
-                <i class="nav-icon fab fa-facebook-f fa-sm"></i>
-                <i class="nav-icon fas fa-rss fa-sm"></i>
-                <i class="nav-icon fab fa-youtube fa-sm"></i>            </div>
-        </div>
-        <div id="nav-2">
-            <a href="../htmlFile/landingPage.html">THE TIMES OF INDIA</a>
-            <p>EDUCATION</p>
-        </div>
-        <div id="nav-3">
-            <div>
-                <i class="nav3-icon fas fa-home"></i>
-                <button id="education">Education</button>
-                <p>News</p>
-                <p>Jobs</p>
-                <p>Board Exams</p>
-                <p>Entrance Exams</p>
-                <p>Exams Result News</p>
-                <p>Admission News</p>
-                <p>CBSE</p>
-                <p>CBSE 12th Result Predictor 2021</p>
-                <p>Videos</p>
-                <p>MBA</p>
-                <p>Medical</p>
-                <p>Engineering</p>
-            </div>
-            <div>
-                <i class="nav3-icon fas fa-search"></i>
-            </div>
-        </div>
-        <div id="nav-4">
-            <p>NEWS/</p>
-            <p>EDUCATION</p>
-        </div>
-    </nav>
-    <form>
-        <div id="top-search">
-            <p>TOP SEARCHES:</p>
-            <button class="top-srch-btn"><a href="#">RSMSSB Patwari Admit Card</a></button>
-            <button class="top-srch-btn"><a href="#">SBI PO Notification 2021</a></button>
-            <button class="top-srch-btn"><a href="#">BPSC 65 Result</a></button>
-            <button class="top-srch-btn"><a href="#">APSC Enforcement admit card</a></button>
-            <button class="top-srch-btn"><a href="#">Odisha Police Recruitment</a></button>
-        </div>
-        <div id="main-box">
-            <div id="container">
-            </div>
-            <div id="container2">
-                <div id="suggestion1">
-                    <h3>EDUCATION</h3>
-                    <div>
-                        <p>CBSE 12th Result Predictor 2021</p>
-                        <p>Exam Bank Recruitment</p>
-                        <p>CAT Exam Result</p>
-                        <p>Courses after 12th Arts</p>
-                        <p>Career in Data Science</p>
-                        <p>Courses After 12th Commerce</p>
-                        <p>English Improvement Tips</p>
-                        <p>Competitive Jobs Preparation Tips</p>
-                        <p>TOP MBA Entrance exams</p>
-                        <p>Best Engineering Colleges</p>
-                    </div>
+    <!-- Header Part -->
+
+    <section class="headerTop">
+        <div class="headerTopLeft">
+            <div class="headerTopLeftOne">
+                <p>EDITION</p>
+
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/25px-Flag_of_India.svg.png"
+                        alt="indianFlag">
                 </div>
-                <div id="suggestion2">
-                    <h3>MOST POPULAR</h3>
-                    <div id="btn">
-                        <button>READ</button>
-                        <button>COMMENTED</button>
-                        <button>SHARED</button>
-                    </div>
-                    <div id="section">
-                        <button>IN THIS SECTION</button>
-                        <button>| ENTIRE WEBSITE</button>
-                    </div>
-                    <div id="list">
-                    </div>
-                </div>
-                <div id="section3">
-                    <h5>THE TIMES OF INDIA</h5>
-                    <div id="inner-section">
-                        <h1>Education</h1>
-                        <i class="fas fa-plus fa-2x"></i>
-                    </div>
-                    <p>A weekly decoder of the biggest developments in the education sector delivered to your inbox.</p>
-                    <input type="text" name="email" id="email" placeholder="Your email address">
-                    <button id="subscribe">SUBSCRIBE</button>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="headerTopLeftTwo">
+                <p class="headerTopLeftTwoDate">
+
+                </p>
+            </div>
+            <div class="headerTopLeftThree">
+                <p>DELHI</p>
+                <i class="fas fa-sun"></i>
+                <p><strong>27<sup>o</sup></strong> c</p>
+            </div>
+        </div>
+        <div class="headerTopRight">
+            <button>SUBSCRIBE TO TOI+</button>
+            <p>SIGN IN</p>
+            <div><i class="fab fa-twitter"></i></div>
+            <div><i class="fab fa-facebook"></i></div>
+            <div><i class="fas fa-rss"></i></div>
+            <div><i class="fab fa-youtube"></i></div>
+        </div>
+    </section>
+    <section class="headerLogo">
+        <a href="../htmlFile/landingPage.html"><img src="https://static.toiimg.com/photo/79638690.cms" alt="timesOfIndiaLogo"></a>
+    </section>
+
+    <section class="headerBottom">
+        <div class="headerBottomContainer">
+
+        </div>
+    </section>
+
+    <section class="headerBottomSecond">
+        <p>IN THE NEWS</p>
+        <P>CORONAVIRUS</P>
+        <P>T20 WORLD CUP 2021</P>
+        <P>COVID-19 VACCINE</P>
+        <P>COVID CASES IN INDIA</P>
+    </section>
+
+    <section class="hoverSection">
+
+    </section>
+
+
+    <!-- main Section -->
+
+    <div class="main">
+        <div class="mainLeft">
+            <div class="sectionOne">
+                <div class="sectionOneLeft">
+                    <p>In Andhra Pradesh, 2 decades of drought emptying out ‘blessed’ district</p>
+                </div>  
+                <div class="sectionOneRight">
+                    <p>Hyderabad: Stray dogs find home in adoption drive in a dog show</p>
+                    <p>Latest news live updates from across cities</p>
+                    <p>Ahead of UP polls, 6 rebel BSP MLAs, BJP lawmaker join SP</p>
+                    <p>ABVP man stabbed, Section 144 imposed in N Tripura district</p>
+                    <p>Penalised for not donating for the Ram temple, headmistress tells Delhi HC</p>
                 </div>
             </div>
+            <div class="cityOne">
+                <p>LATEST VIDEOS</p>
+                <div>
+                    <div class="cityOneImg">
+                        <p>Congress leader Priyanka Gandhi addresses Pratigya rally ahead of assembly polls in Chhattisgarh</p>
+                    </div>
+                    <div class="cityOneImg">
+                        <p>World Savings Day: Why it helps to start saving, planning investments from early on</p>
+                    </div>
+                    <div class="cityOneImg">
+                        <p>Mamata Banerjee in Goa talks fish, football, addresses insider-outsider debate</p>
+                    </div>
+                    <div class="cityOneImg">
+                        <p>Line fishing: 18 Maharashtra boats caught in Gujarat waters</p>
+                    </div>
+                </div>
+            </div>
+            <div class="metroNews">
+                <h2>METRO CITIES</h2>
+            </div>
+            
+            <div class="eventSection">
+                <div>
+                    <p>Squid Game and Joker: Mumbai cyclists dress up for a Halloween ride</p>
+                </div>
+                
+                <div>
+                    <p>Deepthi Sudhindra's concert to take you on a journey</p>
+                </div>
+                <div>
+                    <p>Actor Prithviraj at the launch of Prolgae's Sweet Spirulina Powder and Protein Bar at Somerset Greenways</p>
+                </div>
+                <div>
+                    <p>Well-known dancer Ragini Maharaj performs at Vayam Festival</p>
+                </div>
+                <div>
+                    <p>Odisha seeks GI tag for Cuttack’s silver filigree</p>
+                </div>
+                <div>
+                    <p>Good to see Goa getting back its vibe again after a long haul: Akanksha Puri</p>
+                </div>
+                <div>
+                    <p>College holds webinar on cyber security during the lockdown</p>
+                </div>
+                <div>
+                    <p>Kanpur finally gets into the party mode</p>
+                </div>
+            </div>
+
+            <div class="cityNews">
+
+            </div>
         </div>
-        <div id="quickLinks"></div>
-    </form>
-    <div id="description">
-        <p>The Times of India Education is a leading source that provides the reliable and latest news on education and jobs. Get the breaking news on CBSE, ICSE, Board Exams, colleges, universities, competitive exams, date sheet, admit card, answer key, result, admission, exam analysis, job news, recruitment notifications, etc. The Times of India Education extensively covers topics on Education news, Job news, CBSE, ICSE, Board Exams, Entrance Exams, Admission, Study Abroad, etc. Stay connected with The Times of India for the newest updates in the education sector.</p>
+        <div class="mainRight">
+            <div class="mainRightOne">
+                
+            </div>
+        </div>
     </div>
 
 
-    <!-- Footer Section -->
+    <!-- Footer -->
 
     <section class="footer">
         <div class="footerLeft">
@@ -469,7 +498,7 @@
             </div>
         </div>
     </section>
-    <script src="https://kit.fontawesome.com/32650486ba.js" crossorigin="anonymous"></script>
-    <script src="../jsFile/education.js"></script>
+    
+    <script src="../jsFile/city.js"></script>
 </body>
 </html>
