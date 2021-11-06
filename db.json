@@ -1,10 +1,4 @@
 {
-<<<<<<< HEAD
-    "tasks": [
-        
-    ]
-}
-=======
   "headerTag": [
     { "name": "Briefs", "href": "./brief.html" },
     { "name": "Videos", "href": "#" },
@@ -2241,4 +2235,3 @@
         "link9":"Education News"
     }
 }
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b

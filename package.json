@@ -4,13 +4,8 @@
   "description": "The Times of India (TOI) is an Indian English-language daily newspaper and digital news media owned and managed by The Times Group. It is the third-largest newspaper in India by circulation and largest selling English-language daily in the world.It is the oldest English-language newspaper in India, and the second-oldest Indian newspaper still in circulation, with its first edition published in 1838",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server db.json"
-=======
-    "start": "json-server --watch db.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
+    "start": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",

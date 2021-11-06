@@ -1,19 +1,13 @@
+
 window.addEventListener("load", ()=>{
     handleData()
-<<<<<<< HEAD
-    .then(res =>console.log(res))
-=======
     .then(res =>{
         showCards(res)
     })
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
     .catch(err => console.log(err));
 })
 
 function handleData(){
-<<<<<<< HEAD
-    return fetch("https://newsapi.org/v2/top-headlines&apiKey=e88a3ca368aa40d6bfd6144b856d172e").then(res=>res.json())
-=======
     return fetch("http://localhost:3000/brief")
     .then(res=>res.json())
     
@@ -51,5 +45,4 @@ function showCards(data){
         card.append(img, title, description, reference)
         div.append(card)
     }
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
-}
+}   

@@ -1,42 +1,24 @@
 body{
     background: #ECEFF1;
-<<<<<<< HEAD
-}
-nav{
-=======
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Roboto', sans-serif;;
 }
 nav{
     max-width: 100%;
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
     background: #000;
     color: white;
 }
 form{
-<<<<<<< HEAD
-    width: 80%;
-    margin: auto;
-}
-=======
     max-width: 70%;
     margin: auto;
 }
 p{
     margin: 0px;
 }
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
 #nav-1{
     background: #263238;
     color: white;
     margin: auto;
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-around;
-}
-#nav-1 > div{
-    display: flex;
-    margin: 0px;
-=======
     justify-content: space-between;
 }
 #nav-1 > div{
@@ -47,7 +29,6 @@ p{
 } 
 #nav-1>div:nth-child(2), #nav-3> div:nth-child(2){
     margin-right: 14.7%;
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
 }
 .nav-p, #nav-3 >div >p, #nav-4> p{
     padding-top: 6px;
@@ -62,15 +43,12 @@ p{
     border: none;
     color: white;
 }
-<<<<<<< HEAD
-=======
 #crown{
     border: none; 
     color: orange; 
     background: transparent;
     color: yellow;
 }
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
 .icon{
     border: none;
     width: 200px;
@@ -79,16 +57,6 @@ p{
     background: linear-gradient(to left, #F48FB1, #1A237E);
     height: 30px;
 }
-<<<<<<< HEAD
-i, #signup{
-    color: white;
-    text-decoration: none;
-    padding-top: 7px;
-}
-#nav-2 > img{
-    display: block;
-    margin: auto;
-=======
 i{
     background: #fff;
     border: 1px solid #676E7A;
@@ -104,26 +72,19 @@ i{
     display: block;
     margin: auto;
     max-width: 100%;
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
     margin-top: 5px;
     padding-bottom: 40px;
 }
 #nav-3{
     background: #D50000;
     display: flex;
-<<<<<<< HEAD
-    justify-content: space-around;
-=======
     justify-content: space-between;
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
     margin: auto;
 }
 #nav-3 > div{
     display: flex;
     gap: 0.7rem;
 }
-<<<<<<< HEAD
-=======
 .nav-icon{
     background: #fff;
     /* size: 5px; */
@@ -136,7 +97,6 @@ i{
     color: #fff;
     padding-top: 5px;
 }
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
 #brief{
     color: white;
     background: #666;
@@ -157,17 +117,6 @@ i{
 }
 #nav-4{
     display: flex;
-<<<<<<< HEAD
-    background: white;
-}
-#nav-4 > p:nth-child(1){
-    color: #888;
-    padding-left: 15%;
-}
-#nav-4 > p:nth-child(2){
-    color: #000;
-}
-=======
     gap: 0px;
     background: white;
     font-size: 11px;
@@ -318,4 +267,3 @@ form > h1{
     /* -ms-grid-columns: (1fr)[2]; */
         grid-template-columns: repeat(2, 1fr);
   }
->>>>>>> 4ee7583840add6d96ee3b2c9464e6e931e71453b
