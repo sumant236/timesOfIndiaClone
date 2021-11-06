@@ -19,7 +19,7 @@ window.addEventListener("load", () => {
     fetch_bollywoodNews("bollywood");
     fetch_bollywoodNews("indian reality shows");
     fetch_bollywoodNews("lifestyle");
-    //handle_search()
+    handle_search()
     setInterval(() => {
         fetch_photos()
     }, 3000)
@@ -138,10 +138,10 @@ function fetch_photos() {
         .then(res => res.json())
         .then(res => create_photos(res))
 }
-/*async function handle_photos() {
+async function handle_photos() {
     const result = await fetch_photos()
     create_photos(result)
-}*/
+}
 var count = 5;
 var init = 0;
 function create_photos(result) {
