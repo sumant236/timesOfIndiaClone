@@ -42,10 +42,25 @@ function createBox1(data, index) {
     img.src = `${data[index].img}`
     img.setAttribute('class', 'newsImg')
     const imgDiv = document.createElement('div');
+    imgDiv.addEventListener('mouseenter', e =>{
+        const iconDiv = document.createElement('div');
+        iconDiv.setAttribute('class', 'titleIcons')
+        imgDiv.setAttribute('class', 'imageDiv imgHover')
+        iconDiv.innerHTML = `<i class="title-icon fab fa-facebook-f fa-sm"></i><i class="title-icon fab fa-twitter"></i>`
+        imgText.append(iconDiv)
+    })
+    imgDiv.addEventListener('mouseleave', e =>{
+        imgDiv.setAttribute('class', 'imageDiv')
+        const icons = document.getElementsByClassName('titleIcons')[0]
+        icons.parentElement.removeChild(icons.parentElement.childNodes[1])
+    })
     const imgText = document.createElement('h3');
     imgText.textContent = data[index].imgtxt;
     imgText.setAttribute('class', 'imgTxt' )
     imgDiv.setAttribute('class', 'imageDiv')
+    imgDiv.addEventListener('mouseleave', e=>{
+        imgDiv.setAttribute('class', 'imageDiv')
+    })
     imgDiv.append(imgText)
     div.append(img, imgDiv)
     return div
@@ -56,6 +71,18 @@ function createBox2(data, index) {
     for(let news in data[index].box1){
         const title = document.createElement('p')
         title.textContent = `${data[index].box1[news]}`
+        title.addEventListener('mouseenter', e =>{
+            title.style.color = '#D50000';
+            const icons = document.createElement('div')
+            icons.setAttribute('class', 'titleIcons')
+            icons.innerHTML = `<i class="title-icon fab fa-facebook-f fa-sm"></i><i class="title-icon fab fa-twitter"></i>`
+            title.append(icons)
+        })
+        title.addEventListener('mouseleave', e =>{
+            title.style.color = '#000'
+            const icons = document.getElementsByClassName('titleIcons')[0]
+            icons.parentElement.removeChild(icons.parentElement.childNodes[1])
+        })
         title.setAttribute('class', 'innerbox')
         div.append(title);
         // console.log(news[news])
@@ -70,6 +97,18 @@ function createBox3(data, index) {
     for(let news in data[index].box2){
         const title = document.createElement('p')
         title.textContent = `${data[index].box2[news]}`
+        title.addEventListener('mouseenter', e =>{
+            title.style.color = '#D50000'
+            const icons = document.createElement('div')
+            icons.setAttribute('class', 'titleIcons')
+            icons.innerHTML = `<i class="title-icon fab fa-facebook-f fa-sm"></i><i class="title-icon fab fa-twitter"></i>`
+            title.append(icons)
+        })
+        title.addEventListener('mouseleave', e =>{
+            title.style.color = '#676E7A'
+            const icons = document.getElementsByClassName('titleIcons')[0]
+            icons.parentElement.removeChild(icons.parentElement.childNodes[1])
+        })
         title.setAttribute('class', 'innerbox news9-10')
         div.append(title);
     }
@@ -83,6 +122,18 @@ function createBox4(data, index) {
         const title = document.createElement('p')
         title.textContent = `${data[index].box3[news]}`
         title.setAttribute('class', 'innerbox news11-12')
+        title.addEventListener('mouseenter', e =>{
+            title.style.color = '#D50000';
+            const icons = document.createElement('div')
+            icons.setAttribute('class', 'titleIcons')
+            icons.innerHTML = `<i class="title-icon fab fa-facebook-f fa-sm"></i><i class="title-icon fab fa-twitter"></i>`
+            title.append(icons)
+        })
+        title.addEventListener('mouseleave', e =>{
+            title.style.color = '#676E7A'
+            const icons = document.getElementsByClassName('titleIcons')[0]
+            icons.parentElement.removeChild(icons.parentElement.childNodes[1])
+        })
         div.append(title);
     }
     div.setAttribute('class', 'color-grey')
