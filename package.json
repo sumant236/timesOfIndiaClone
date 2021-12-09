@@ -20,6 +20,7 @@
   "homepage": "https://github.com/mausam-kumar/timesOfIndiaClone#readme",
   "dependencies": {
     "json-server": "^0.17.0",
-    "mockserver": "^3.1.1"
+    "mockserver": "^3.1.1",
+    "node": "^17.2.0"
   }
 }
