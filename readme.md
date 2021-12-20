@@ -1,5 +1,17 @@
-# Deployed Link (Live Demo) : https://times-of-india-clone-icons.netlify.app/
-# server deployed link : https://times-of-india-clone-server.herokuapp.com/
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+<h2>Deployed Link (Live Demo) : https://times-of-india-clone-icons.netlify.app/</h2>
+<h2>server deployed link : https://times-of-india-clone-server.herokuapp.com/</h2>
 # Times Of India
 The Times of India (TOI) is an Indian English-language daily newspaper and digital news media owned and managed by The Times Group. It is the third-largest newspaper in India by circulation and largest selling English-language daily in the world.It is the oldest English-language newspaper in India, and the second-oldest Indian newspaper still in circulation, with its first edition published in 1838".
 
