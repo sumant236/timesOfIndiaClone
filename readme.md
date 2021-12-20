@@ -1,14 +1,11 @@
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installing and Running
+> Executing the commands mentioned below one by one in your command line will help in making this application run on your system.
+> 
+> ```bash
+> git clone https://github.com/mausam-kumar/timesOfIndiaClone.git
+> cd ./timesOfIndiaClone/htmlFile/landingPage.html
+> ```
+> After entering the commands mentioned above, open main.html with live server.
 
 <h2>Deployed Link (Live Demo) : https://times-of-india-clone-icons.netlify.app/</h2>
 <h2>server deployed link : https://times-of-india-clone-server.herokuapp.com/</h2>
