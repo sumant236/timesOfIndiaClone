@@ -1,7 +1,7 @@
 // Header Part
 
 (async function addHeader(){
-    let data = await fetch('http://localhost:3000/headerTag')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/headerTag')
     data = await data.json()
     var container = document.querySelector('.headerBottomContainer')
     var mainContainer = document.querySelector('.headerBottom')
@@ -17,7 +17,7 @@
 // Section One 
 
 (async function sectionOneHeadlineLeft(){
-    let data = await fetch('http://localhost:3000/sectionOneHeadlineLeft')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionOneHeadlineLeft')
     data = await data.json()
     var container = document.createElement('div')
     container.classList.add('sectionOneHeadlineLeftContainer')
@@ -39,7 +39,7 @@
 })();
 
 (async function sectionOneHeadlineMiddle(){
-    let data = await fetch('http://localhost:3000/sectionOneHeadlineMiddle')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionOneHeadlineMiddle')
     data = await data.json()
     var container = document.createElement('div')
     container.classList.add('sectionOneHeadlineMiddleContainer')
@@ -62,7 +62,7 @@
 
 
 (async function sectionOneHeadlineRight(){
-    let data = await fetch('http://localhost:3000/sectionOneHeadlineRight')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionOneHeadlineRight')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -80,7 +80,7 @@
 // Section Four
 
 (async function sectionFourContainerLowerLeft(){
-    let data = await fetch('http://localhost:3000/sectionFourHeadlineLeft')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionFourHeadlineLeft')
     data = await data.json()
     var mainContainer = document.querySelector('.sectionFourContainerLowerLeft')
     var container = document.createElement('div')
@@ -100,7 +100,7 @@
 
 
 (async function sectionFourContainerLowerMiddle(){
-    let data = await fetch('http://localhost:3000/sectionFourHeadlineMiddle')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionFourHeadlineMiddle')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -117,7 +117,7 @@
 
 
 (async function sectionFourContainerLowerRight(){
-    let data = await fetch('http://localhost:3000/sectionFourHeadlineRight')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionFourHeadlineRight')
     data = await data.json()
     var mainContainer = document.querySelector('.sectionFourContainerLowerRight')
     var container = document.createElement('div')
@@ -138,7 +138,7 @@
 // Section Five
 
 (async function sectionOneHeadlineRight(){
-    let data = await fetch('http://localhost:3000/citySectionOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/citySectionOne')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -154,7 +154,7 @@
 })();
 
 (async function FiveCityLowerUpperRight(){
-    let data = await fetch('http://localhost:3000/citySectionTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/citySectionTwo')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -171,7 +171,7 @@
 
 
 (async function sectionOneHeadlineRight(){
-    let data = await fetch('http://localhost:3000/coranaVirusSectionOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/coranaVirusSectionOne')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -187,7 +187,7 @@
 })();
 
 (async function FiveCityLowerUpperRight(){
-    let data = await fetch('http://localhost:3000/coranaVirusSectionTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/coranaVirusSectionTwo')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -203,7 +203,7 @@
 })();
 
 (async function sectionOneHeadlineMiddle(){
-    let data = await fetch('http://localhost:3000/indiaFightCovid')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/indiaFightCovid')
     data = await data.json()
     var container = document.createElement('div')
     // container.classList.add('sectionOneHeadlineMiddleContainer')
@@ -225,7 +225,7 @@
 })();
 
 (async function sectionOneHeadlineMiddle(){
-    let data = await fetch('http://localhost:3000/sectionFiveExplore')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionFiveExplore')
     data = await data.json()
     var container = document.createElement('div')
     // container.classList.add('sectionOneHeadlineMiddleContainer')
@@ -247,7 +247,7 @@
 })();
 
 (async function lifestyle(){
-    let data = await fetch('http://localhost:3000/lifestyle')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/lifestyle')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.lifestyle')
@@ -275,7 +275,7 @@
 })();
 
 (async function sectionSixTwoLowerTwo(){
-    let data = await fetch('http://localhost:3000/sectionSixTwoLowerTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionSixTwoLowerTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSixTwoLowerTwo')
@@ -299,7 +299,7 @@
 })();
 
 (async function sectionSixThreeCard(){
-    let data = await fetch('http://localhost:3000/sectionSixThreeCard')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionSixThreeCard')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSixThreeCard')
@@ -330,7 +330,7 @@
 
 
 (async function sectionSixFourCard(){
-    let data = await fetch('http://localhost:3000/sectionSixFourCard')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionSixFourCard')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSixFourCard')
@@ -354,7 +354,7 @@
 // Section Seven
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/sportsSectionOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sportsSectionOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSportLowerLeftUpperRight')
@@ -370,7 +370,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/sportsSectionTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sportsSectionTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSportLowerLeftLower')
@@ -394,7 +394,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/sportsSectionThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sportsSectionThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSportLowerRight')
@@ -418,7 +418,7 @@
 })();
 
 (async function sectionSevenFour(){
-    let data = await fetch('http://localhost:3000/shoppingDestination')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/shoppingDestination')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSevenFourCard')
@@ -440,7 +440,7 @@
 })();
 
 (async function sectionSevenFiveOne(){
-    let data = await fetch('http://localhost:3000/sectionTechOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionTechOne')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -457,7 +457,7 @@
 
 
 (async function sectionSevenFiveTwo(){
-    let data = await fetch('http://localhost:3000/sectionTechTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionTechTwo')
     data = await data.json()
     // console.log(data);
     var container = document.createElement('div')
@@ -474,7 +474,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/sectionBusinessOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionBusinessOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSevenEightOne')
@@ -490,7 +490,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/sectionBusinessTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionBusinessTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSevenEightTwo')
@@ -514,7 +514,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/sectionBusinessThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sectionBusinessThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.sectionSevenEightThree')
@@ -541,7 +541,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/worldOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/worldOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.eightOneOne')
@@ -557,7 +557,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/worldTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/worldTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.eightOneTwo')
@@ -582,7 +582,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/acrossToiOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/acrossToiOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.eigthTwoOne')
@@ -598,7 +598,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/acrossToiTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/acrossToiTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.eigthTwoTwo')
@@ -622,7 +622,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/acrossToiThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/acrossToiThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.eigthTwoThree')
@@ -647,7 +647,7 @@
 
 
 (async function eightThreeCard(){
-    let data = await fetch('http://localhost:3000/sponserStory')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/sponserStory')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.eightThreeCard')
@@ -671,7 +671,7 @@
 //Section Nine
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/travelOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/travelOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineOneOne')
@@ -687,7 +687,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/travelTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/travelTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineOneTwo')
@@ -711,7 +711,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/travelThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/travelThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineOneThree')
@@ -740,7 +740,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/recipeOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/recipeOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineTwoOne')
@@ -756,7 +756,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/recipeTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/recipeTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineTwoTwo')
@@ -780,7 +780,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/recipeThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/recipeThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineTwoThree')
@@ -809,7 +809,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/healthOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/healthOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineThreeOne')
@@ -825,7 +825,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/healthTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/healthTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineThreeTwo')
@@ -849,7 +849,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/healthThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/healthThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineThreeThree')
@@ -874,7 +874,7 @@
 
 
 (async function sectionSixFourCard(){
-    let data = await fetch('http://localhost:3000/television')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/television')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.nineFourCard')
@@ -898,7 +898,7 @@
 // Section Ten
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/autoOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/autoOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.autoOne')
@@ -914,7 +914,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/autoTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/autoTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.autoTwo')
@@ -938,7 +938,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/autoThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/autoThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.autoThree')
@@ -965,7 +965,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/educationOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/educationOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.educationOne')
@@ -981,7 +981,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/educationTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/educationTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.educationTwo')
@@ -1005,7 +1005,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/educationThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/educationThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.educationThree')
@@ -1029,7 +1029,7 @@
 })();
 
 (async function sectionSixFourCard(){
-    let data = await fetch('http://localhost:3000/mediaWire')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/mediaWire')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.mediawireCard')
@@ -1053,7 +1053,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/opinionOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/opinionOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.opinionOne')
@@ -1069,7 +1069,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/opinionTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/opinionTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.opinionTwo')
@@ -1093,7 +1093,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/opinionThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/opinionThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.opinionThree')
@@ -1119,7 +1119,7 @@
 
 
 (async function sectionSportLowerLeftUpperRight(){
-    let data = await fetch('http://localhost:3000/evokeOne')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/evokeOne')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.evokeOne')
@@ -1135,7 +1135,7 @@
 })();
 
 (async function sectionSportLowerLeftLower(){
-    let data = await fetch('http://localhost:3000/evokeTwo')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/evokeTwo')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.evokeTwo')
@@ -1159,7 +1159,7 @@
 })();
 
 (async function sectionSportLowerRight(){
-    let data = await fetch('http://localhost:3000/evokeThree')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/evokeThree')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.evokeThree')
@@ -1183,7 +1183,7 @@
 })();
 
 (async function sectionSixFourCard(){
-    let data = await fetch('http://localhost:3000/cartoons')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/cartoons')
     data = await data.json()
     // console.log(data);
     let mainContainer = document.querySelector('.cartoonCard')

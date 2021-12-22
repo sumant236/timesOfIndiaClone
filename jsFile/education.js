@@ -9,7 +9,7 @@ window.addEventListener('load', ()=>{
 })
 
 function handleEduNews() {
-    return fetch(`http://localhost:3000/educationNews`)
+    return fetch(`https://times-of-india-clone-server.herokuapp.com/educationNews`)
     .then(res => res.json())
 }
 
@@ -141,7 +141,7 @@ function createBox4(data, index) {
 }
 
 function handleList() {
-    return fetch('http://localhost:3000/suggestionList')
+    return fetch('https://times-of-india-clone-server.herokuapp.com/suggestionList')
     .then(res => res.json())
     .then(res => showList(res))
     .catch(err => console.log(err))
@@ -159,7 +159,7 @@ function showList(data) {
 }
 
 function quickLinks() {
-    return fetch('http://localhost:3000/quickLinks')
+    return fetch('https://times-of-india-clone-server.herokuapp.com/quickLinks')
     .then(res=>res.json())
     .then(res => showLinks(res))
     .catch(err => console.log(err))

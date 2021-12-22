@@ -8,7 +8,7 @@ window.addEventListener("load", ()=>{
 })
 
 function handleData(){
-    return fetch("http://localhost:3000/brief")
+    return fetch("https://times-of-india-clone-server.herokuapp.com/brief")
     .then(res=>res.json())
     
 }

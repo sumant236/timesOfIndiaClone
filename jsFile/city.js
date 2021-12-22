@@ -1,6 +1,6 @@
 
 (async function addHeader(){
-    let data = await fetch('http://localhost:3000/headerTag')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/headerTag')
     data = await data.json()
     var container = document.querySelector('.headerBottomContainer')
     var mainContainer = document.querySelector('.headerBottom')
@@ -14,7 +14,7 @@
 })();
 
 (async function metroNews(){
-    let data = await fetch('http://localhost:3000/metroCity')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/metroCity')
     data = await data.json()
     var container = document.createElement('div')
     var mainContainer = document.querySelector('.metroNews')
@@ -50,7 +50,7 @@
 
 
 (async function cityNews(){
-    let data = await fetch('http://localhost:3000/stateCityNews')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/stateCityNews')
     data = await data.json()
     var container = document.createElement('div')
     var mainContainer = document.querySelector('.cityNews')

@@ -1,3 +1,14 @@
+## Installing and Running
+> Executing the commands mentioned below one by one in your command line will help in making this application run on your system.
+> 
+> ```bash
+> git clone https://github.com/mausam-kumar/timesOfIndiaClone.git
+> cd ./timesOfIndiaClone/htmlFile/landingPage.html
+> ```
+> After entering the commands mentioned above, open main.html with live server.
+
+<h2>Deployed Link (Live Demo) : https://times-of-india-clone-icons.netlify.app/</h2>
+<h2>server deployed link : https://times-of-india-clone-server.herokuapp.com/</h2>
 # Times Of India
 The Times of India (TOI) is an Indian English-language daily newspaper and digital news media owned and managed by The Times Group. It is the third-largest newspaper in India by circulation and largest selling English-language daily in the world.It is the oldest English-language newspaper in India, and the second-oldest Indian newspaper still in circulation, with its first edition published in 1838".
 

@@ -1,6 +1,6 @@
 // Header Section
 (async function addHeader(){
-    let data = await fetch('http://localhost:3000/headerTag')
+    let data = await fetch('https://times-of-india-clone-server.herokuapp.com/headerTag')
     data = await data.json()
     var container = document.querySelector('.headerBottomContainer')
     var mainContainer = document.querySelector('.headerBottom')
